@@ -1,0 +1,10 @@
+Laboratorio Numero Dos
+Programación Orientada a Eventos
+Grupo Numero 6
+
+Integrantes
+Kenneth Aldahir Granados Claros 
+Kevin Alexander Cruz U20220729
+Josué Iván Beltrán Segovia U20230723
+
+Programa: Crear un programa que permita gestionar un sistema de renta de vehículos, el diseño de la base de datos es libre pero debe contener como mínimo 3 tablas, las tablas tienen que estar relacionadas.
