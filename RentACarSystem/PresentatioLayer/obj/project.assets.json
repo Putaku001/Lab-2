@@ -1740,19 +1740,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\MINEDUCYT\\.nuget\\packages\\": {}
+    "C:\\Users\\ivanb\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MINEDUCYT\\Desktop\\Lab-2\\RentACarSystem\\PresentatioLayer\\PresentatioLayer.csproj",
+      "projectUniqueName": "C:\\Users\\ivanb\\OneDrive\\Escritorio\\Renta de carros\\Lab-2\\RentACarSystem\\PresentatioLayer\\PresentatioLayer.csproj",
       "projectName": "PresentatioLayer",
-      "projectPath": "C:\\Users\\MINEDUCYT\\Desktop\\Lab-2\\RentACarSystem\\PresentatioLayer\\PresentatioLayer.csproj",
-      "packagesPath": "C:\\Users\\MINEDUCYT\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MINEDUCYT\\Desktop\\Lab-2\\RentACarSystem\\PresentatioLayer\\obj\\",
+      "projectPath": "C:\\Users\\ivanb\\OneDrive\\Escritorio\\Renta de carros\\Lab-2\\RentACarSystem\\PresentatioLayer\\PresentatioLayer.csproj",
+      "packagesPath": "C:\\Users\\ivanb\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ivanb\\OneDrive\\Escritorio\\Renta de carros\\Lab-2\\RentACarSystem\\PresentatioLayer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\MINEDUCYT\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ivanb\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1766,11 +1766,11 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "C:\\Users\\MINEDUCYT\\Desktop\\Lab-2\\RentACarSystem\\BusinessLayer\\BusinessLayer.csproj": {
-              "projectPath": "C:\\Users\\MINEDUCYT\\Desktop\\Lab-2\\RentACarSystem\\BusinessLayer\\BusinessLayer.csproj"
+            "C:\\Users\\ivanb\\OneDrive\\Escritorio\\Renta de carros\\Lab-2\\RentACarSystem\\BusinessLayer\\BusinessLayer.csproj": {
+              "projectPath": "C:\\Users\\ivanb\\OneDrive\\Escritorio\\Renta de carros\\Lab-2\\RentACarSystem\\BusinessLayer\\BusinessLayer.csproj"
             },
-            "C:\\Users\\MINEDUCYT\\Desktop\\Lab-2\\RentACarSystem\\CommonLayer\\CommonLayer.csproj": {
-              "projectPath": "C:\\Users\\MINEDUCYT\\Desktop\\Lab-2\\RentACarSystem\\CommonLayer\\CommonLayer.csproj"
+            "C:\\Users\\ivanb\\OneDrive\\Escritorio\\Renta de carros\\Lab-2\\RentACarSystem\\CommonLayer\\CommonLayer.csproj": {
+              "projectPath": "C:\\Users\\ivanb\\OneDrive\\Escritorio\\Renta de carros\\Lab-2\\RentACarSystem\\CommonLayer\\CommonLayer.csproj"
             }
           }
         }

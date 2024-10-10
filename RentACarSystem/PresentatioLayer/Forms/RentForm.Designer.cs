@@ -55,7 +55,7 @@
             // clientsButton
             // 
             clientsButton.BackColor = SystemColors.ActiveCaption;
-            clientsButton.Location = new Point(70, 21);
+            clientsButton.Location = new Point(96, 26);
             clientsButton.Margin = new Padding(0);
             clientsButton.Name = "clientsButton";
             clientsButton.Size = new Size(187, 36);
@@ -67,7 +67,7 @@
             // carsButton
             // 
             carsButton.BackColor = SystemColors.ActiveCaption;
-            carsButton.Location = new Point(70, 108);
+            carsButton.Location = new Point(96, 110);
             carsButton.Margin = new Padding(4, 3, 4, 3);
             carsButton.Name = "carsButton";
             carsButton.Size = new Size(187, 37);
@@ -81,10 +81,10 @@
             clientsLabel.AutoSize = true;
             clientsLabel.BackColor = SystemColors.ActiveCaption;
             clientsLabel.Font = new Font("Tw Cen MT Condensed Extra Bold", 12F);
-            clientsLabel.Location = new Point(20, 69);
+            clientsLabel.Location = new Point(41, 69);
             clientsLabel.Margin = new Padding(4, 0, 4, 0);
             clientsLabel.Name = "clientsLabel";
-            clientsLabel.Size = new Size(122, 20);
+            clientsLabel.Size = new Size(151, 23);
             clientsLabel.TabIndex = 2;
             clientsLabel.Text = "Seleccionar Cliente";
             // 
@@ -93,10 +93,10 @@
             CarLabel.AutoSize = true;
             CarLabel.BackColor = SystemColors.ActiveCaption;
             CarLabel.Font = new Font("Tw Cen MT Condensed Extra Bold", 12F);
-            CarLabel.Location = new Point(23, 160);
+            CarLabel.Location = new Point(51, 165);
             CarLabel.Margin = new Padding(4, 0, 4, 0);
             CarLabel.Name = "CarLabel";
-            CarLabel.Size = new Size(115, 20);
+            CarLabel.Size = new Size(141, 23);
             CarLabel.TabIndex = 3;
             CarLabel.Text = "Seleccionar Carro";
             // 
@@ -105,10 +105,10 @@
             rentDateLabel.AutoSize = true;
             rentDateLabel.BackColor = SystemColors.ActiveCaption;
             rentDateLabel.Font = new Font("Tw Cen MT Condensed Extra Bold", 12F);
-            rentDateLabel.Location = new Point(86, 199);
+            rentDateLabel.Location = new Point(118, 243);
             rentDateLabel.Margin = new Padding(4, 0, 4, 0);
             rentDateLabel.Name = "rentDateLabel";
-            rentDateLabel.Size = new Size(144, 20);
+            rentDateLabel.Size = new Size(175, 23);
             rentDateLabel.TabIndex = 4;
             rentDateLabel.Text = "Fecha y hora de retiro";
             // 
@@ -117,10 +117,10 @@
             rentReturnLabel.AutoSize = true;
             rentReturnLabel.BackColor = SystemColors.ActiveCaption;
             rentReturnLabel.Font = new Font("Tw Cen MT Condensed Extra Bold", 12F);
-            rentReturnLabel.Location = new Point(71, 301);
+            rentReturnLabel.Location = new Point(71, 342);
             rentReturnLabel.Margin = new Padding(4, 0, 4, 0);
             rentReturnLabel.Name = "rentReturnLabel";
-            rentReturnLabel.Size = new Size(174, 20);
+            rentReturnLabel.Size = new Size(212, 23);
             rentReturnLabel.TabIndex = 5;
             rentReturnLabel.Text = "Fecha y hora de devolucion";
             // 
@@ -128,7 +128,7 @@
             // 
             saveRentButton.BackColor = SystemColors.ActiveCaption;
             saveRentButton.ForeColor = Color.Black;
-            saveRentButton.Location = new Point(13, 499);
+            saveRentButton.Location = new Point(13, 559);
             saveRentButton.Margin = new Padding(4, 3, 4, 3);
             saveRentButton.Name = "saveRentButton";
             saveRentButton.Size = new Size(133, 59);
@@ -139,7 +139,7 @@
             // editRentButton
             // 
             editRentButton.BackColor = SystemColors.ActiveCaption;
-            editRentButton.Location = new Point(313, 499);
+            editRentButton.Location = new Point(321, 559);
             editRentButton.Margin = new Padding(4, 3, 4, 3);
             editRentButton.Name = "editRentButton";
             editRentButton.Size = new Size(133, 59);
@@ -150,7 +150,7 @@
             // deleteRentButton
             // 
             deleteRentButton.BackColor = SystemColors.ActiveCaption;
-            deleteRentButton.Location = new Point(163, 499);
+            deleteRentButton.Location = new Point(163, 559);
             deleteRentButton.Margin = new Padding(4, 3, 4, 3);
             deleteRentButton.Name = "deleteRentButton";
             deleteRentButton.Size = new Size(133, 59);
@@ -162,10 +162,10 @@
             // 
             ClientscomboBox.BackColor = SystemColors.ControlLightLight;
             ClientscomboBox.FormattingEnabled = true;
-            ClientscomboBox.Location = new Point(159, 66);
+            ClientscomboBox.Location = new Point(259, 69);
             ClientscomboBox.Margin = new Padding(4, 3, 4, 3);
             ClientscomboBox.Name = "ClientscomboBox";
-            ClientscomboBox.Size = new Size(152, 28);
+            ClientscomboBox.Size = new Size(203, 31);
             ClientscomboBox.TabIndex = 9;
             // 
             // CarscomboBox
@@ -173,28 +173,28 @@
             CarscomboBox.BackColor = SystemColors.ControlLightLight;
             CarscomboBox.ForeColor = SystemColors.InactiveBorder;
             CarscomboBox.FormattingEnabled = true;
-            CarscomboBox.Location = new Point(158, 157);
+            CarscomboBox.Location = new Point(259, 157);
             CarscomboBox.Margin = new Padding(4, 3, 4, 3);
             CarscomboBox.Name = "CarscomboBox";
-            CarscomboBox.Size = new Size(152, 28);
+            CarscomboBox.Size = new Size(203, 31);
             CarscomboBox.TabIndex = 10;
             // 
             // rentDateDTP
             // 
             rentDateDTP.CustomFormat = "";
-            rentDateDTP.Location = new Point(20, 229);
+            rentDateDTP.Location = new Point(8, 296);
             rentDateDTP.Margin = new Padding(4, 3, 4, 3);
             rentDateDTP.Name = "rentDateDTP";
-            rentDateDTP.Size = new Size(285, 25);
+            rentDateDTP.Size = new Size(322, 29);
             rentDateDTP.TabIndex = 11;
             rentDateDTP.Value = new DateTime(2024, 10, 9, 11, 41, 40, 0);
             // 
             // rentReturnDTP
             // 
-            rentReturnDTP.Location = new Point(20, 330);
+            rentReturnDTP.Location = new Point(8, 386);
             rentReturnDTP.Margin = new Padding(4, 3, 4, 3);
             rentReturnDTP.Name = "rentReturnDTP";
-            rentReturnDTP.Size = new Size(285, 25);
+            rentReturnDTP.Size = new Size(335, 29);
             rentReturnDTP.TabIndex = 12;
             // 
             // rentsDataGridView
@@ -202,11 +202,11 @@
             rentsDataGridView.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.AllCellsExceptHeader;
             rentsDataGridView.BackgroundColor = SystemColors.GradientActiveCaption;
             rentsDataGridView.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            rentsDataGridView.Location = new Point(528, 88);
+            rentsDataGridView.Location = new Point(674, 122);
             rentsDataGridView.Margin = new Padding(4, 3, 4, 3);
             rentsDataGridView.Name = "rentsDataGridView";
             rentsDataGridView.RowHeadersWidth = 51;
-            rentsDataGridView.Size = new Size(456, 404);
+            rentsDataGridView.Size = new Size(853, 404);
             rentsDataGridView.TabIndex = 13;
             // 
             // titlePrincipalFormPanel
@@ -222,11 +222,11 @@
             // tittleLabel
             // 
             tittleLabel.AutoSize = true;
-            tittleLabel.Font = new Font("Algerian", 21.75F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            tittleLabel.Location = new Point(304, 21);
+            tittleLabel.Font = new Font("Arial", 21.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            tittleLabel.Location = new Point(281, 13);
             tittleLabel.Margin = new Padding(4, 0, 4, 0);
             tittleLabel.Name = "tittleLabel";
-            tittleLabel.Size = new Size(386, 32);
+            tittleLabel.Size = new Size(451, 44);
             tittleLabel.TabIndex = 0;
             tittleLabel.Text = "The Brothers Rent A Car";
             // 
@@ -249,7 +249,7 @@
             newRentGroupBox.Margin = new Padding(4);
             newRentGroupBox.Name = "newRentGroupBox";
             newRentGroupBox.Padding = new Padding(4);
-            newRentGroupBox.Size = new Size(433, 405);
+            newRentGroupBox.Size = new Size(653, 454);
             newRentGroupBox.TabIndex = 16;
             newRentGroupBox.TabStop = false;
             newRentGroupBox.Text = "Renta de Vehiculo";
@@ -257,31 +257,31 @@
             // returnTimeDTP
             // 
             returnTimeDTP.Format = DateTimePickerFormat.Time;
-            returnTimeDTP.Location = new Point(20, 264);
+            returnTimeDTP.Location = new Point(338, 296);
             returnTimeDTP.Margin = new Padding(4);
             returnTimeDTP.Name = "returnTimeDTP";
             returnTimeDTP.ShowUpDown = true;
-            returnTimeDTP.Size = new Size(285, 25);
+            returnTimeDTP.Size = new Size(158, 29);
             returnTimeDTP.TabIndex = 14;
             // 
             // rentTimeDTP
             // 
             rentTimeDTP.Format = DateTimePickerFormat.Time;
-            rentTimeDTP.Location = new Point(20, 364);
+            rentTimeDTP.Location = new Point(400, 386);
             rentTimeDTP.Margin = new Padding(4);
             rentTimeDTP.Name = "rentTimeDTP";
             rentTimeDTP.ShowUpDown = true;
-            rentTimeDTP.Size = new Size(285, 25);
+            rentTimeDTP.Size = new Size(166, 29);
             rentTimeDTP.TabIndex = 13;
             // 
             // RentForm
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(9F, 23F);
             AutoScaleMode = AutoScaleMode.Font;
             AutoSizeMode = AutoSizeMode.GrowAndShrink;
             BackColor = SystemColors.ControlDark;
             BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(1049, 586);
+            ClientSize = new Size(1569, 688);
             Controls.Add(titlePrincipalFormPanel);
             Controls.Add(newRentGroupBox);
             Controls.Add(saveRentButton);

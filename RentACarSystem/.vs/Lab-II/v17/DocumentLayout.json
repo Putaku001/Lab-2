@@ -1,13 +1,21 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\MINEDUCYT\\Desktop\\Lab-2\\RentACarSystem\\",
+  "WorkspaceRootPath": "C:\\Users\\ivanb\\OneDrive\\Escritorio\\Renta de carros\\Lab-2\\RentACarSystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{25D936CD-2FB7-4923-B05D-6AC89E5EEB4A}|PresentatioLayer\\PresentatioLayer.csproj|C:\\Users\\MINEDUCYT\\Desktop\\Lab-2\\RentACarSystem\\presentatiolayer\\forms\\carsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{25D936CD-2FB7-4923-B05D-6AC89E5EEB4A}|PresentatioLayer\\PresentatioLayer.csproj|c:\\users\\ivanb\\onedrive\\escritorio\\renta de carros\\lab-2\\rentacarsystem\\presentatiolayer\\forms\\clientform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{25D936CD-2FB7-4923-B05D-6AC89E5EEB4A}|PresentatioLayer\\PresentatioLayer.csproj|solutionrelative:presentatiolayer\\forms\\clientform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25D936CD-2FB7-4923-B05D-6AC89E5EEB4A}|PresentatioLayer\\PresentatioLayer.csproj|c:\\users\\ivanb\\onedrive\\escritorio\\renta de carros\\lab-2\\rentacarsystem\\presentatiolayer\\forms\\carsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{25D936CD-2FB7-4923-B05D-6AC89E5EEB4A}|PresentatioLayer\\PresentatioLayer.csproj|solutionrelative:presentatiolayer\\forms\\carsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{25D936CD-2FB7-4923-B05D-6AC89E5EEB4A}|PresentatioLayer\\PresentatioLayer.csproj|c:\\users\\mineducyt\\desktop\\lab-2\\rentacarsystem\\presentatiolayer\\forms\\rentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{25D936CD-2FB7-4923-B05D-6AC89E5EEB4A}|PresentatioLayer\\PresentatioLayer.csproj|c:\\users\\ivanb\\onedrive\\escritorio\\renta de carros\\lab-2\\rentacarsystem\\presentatiolayer\\forms\\rentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{25D936CD-2FB7-4923-B05D-6AC89E5EEB4A}|PresentatioLayer\\PresentatioLayer.csproj|solutionrelative:presentatiolayer\\forms\\rentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25D936CD-2FB7-4923-B05D-6AC89E5EEB4A}|PresentatioLayer\\PresentatioLayer.csproj|c:\\users\\ivanb\\onedrive\\escritorio\\renta de carros\\lab-2\\rentacarsystem\\presentatiolayer\\forms\\rentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{25D936CD-2FB7-4923-B05D-6AC89E5EEB4A}|PresentatioLayer\\PresentatioLayer.csproj|solutionrelative:presentatiolayer\\forms\\rentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -18,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,19 +34,39 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "RentForm.cs",
-              "DocumentMoniker": "C:\\Users\\MINEDUCYT\\Desktop\\Lab-2\\RentACarSystem\\PresentatioLayer\\Forms\\RentForm.cs",
+              "DocumentIndex": 0,
+              "Title": "ClientForm.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\ivanb\\OneDrive\\Escritorio\\Renta de carros\\Lab-2\\RentACarSystem\\PresentatioLayer\\Forms\\ClientForm.cs",
+              "RelativeDocumentMoniker": "PresentatioLayer\\Forms\\ClientForm.cs",
+              "ToolTip": "C:\\Users\\ivanb\\OneDrive\\Escritorio\\Renta de carros\\Lab-2\\RentACarSystem\\PresentatioLayer\\Forms\\ClientForm.cs [Dise\u00F1o]",
+              "RelativeToolTip": "PresentatioLayer\\Forms\\ClientForm.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T14:40:35.671Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RentForm.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\ivanb\\OneDrive\\Escritorio\\Renta de carros\\Lab-2\\RentACarSystem\\PresentatioLayer\\Forms\\RentForm.cs",
               "RelativeDocumentMoniker": "PresentatioLayer\\Forms\\RentForm.cs",
-              "ToolTip": "C:\\Users\\MINEDUCYT\\Desktop\\Lab-2\\RentACarSystem\\PresentatioLayer\\Forms\\RentForm.cs",
+              "ToolTip": "C:\\Users\\ivanb\\OneDrive\\Escritorio\\Renta de carros\\Lab-2\\RentACarSystem\\PresentatioLayer\\Forms\\RentForm.cs [Dise\u00F1o]",
+              "RelativeToolTip": "PresentatioLayer\\Forms\\RentForm.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T14:34:44.462Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RentForm.cs",
+              "DocumentMoniker": "C:\\Users\\ivanb\\OneDrive\\Escritorio\\Renta de carros\\Lab-2\\RentACarSystem\\PresentatioLayer\\Forms\\RentForm.cs",
+              "RelativeDocumentMoniker": "PresentatioLayer\\Forms\\RentForm.cs",
+              "ToolTip": "C:\\Users\\ivanb\\OneDrive\\Escritorio\\Renta de carros\\Lab-2\\RentACarSystem\\PresentatioLayer\\Forms\\RentForm.cs",
               "RelativeToolTip": "PresentatioLayer\\Forms\\RentForm.cs",
               "ViewState": "AQIAALEAAAAAAAAAAAAmwPIAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -47,11 +75,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "CarsForm.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\MINEDUCYT\\Desktop\\Lab-2\\RentACarSystem\\PresentatioLayer\\Forms\\CarsForm.cs",
+              "DocumentMoniker": "C:\\Users\\ivanb\\OneDrive\\Escritorio\\Renta de carros\\Lab-2\\RentACarSystem\\PresentatioLayer\\Forms\\CarsForm.cs",
               "RelativeDocumentMoniker": "PresentatioLayer\\Forms\\CarsForm.cs",
-              "ToolTip": "C:\\Users\\MINEDUCYT\\Desktop\\Lab-2\\RentACarSystem\\PresentatioLayer\\Forms\\CarsForm.cs [Dise\u00F1o]",
+              "ToolTip": "C:\\Users\\ivanb\\OneDrive\\Escritorio\\Renta de carros\\Lab-2\\RentACarSystem\\PresentatioLayer\\Forms\\CarsForm.cs [Dise\u00F1o]",
               "RelativeToolTip": "PresentatioLayer\\Forms\\CarsForm.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-10T07:32:23.627Z",
