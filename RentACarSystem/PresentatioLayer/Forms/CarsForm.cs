@@ -163,7 +163,7 @@ namespace PresentatioLayer.Forms
             availabilityCheckBox.Checked = false;
         }
 
-       
+
         private void CarsDataGridView_SelectionChanged(object sender, EventArgs e)
         {
             if (CarsDataGridView.SelectedRows.Count > 0)
@@ -175,5 +175,7 @@ namespace PresentatioLayer.Forms
                 availabilityCheckBox.Checked = Convert.ToBoolean(selectedRow.Cells["Disponibilidad"].Value);
             }
         }
+
+     
     }
 }

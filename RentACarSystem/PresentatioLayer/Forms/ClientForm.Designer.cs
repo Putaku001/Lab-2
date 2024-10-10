@@ -30,10 +30,10 @@
         {
             tittleLabel = new Label();
             nameLabel = new Label();
-            lastNameLabel = new Label();
+            emailLabel = new Label();
             phoneLabel = new Label();
             nameTextBox = new TextBox();
-            lastNameTextBox = new TextBox();
+            emailTextBox = new TextBox();
             phoneTextBox = new TextBox();
             addButton = new Button();
             editButton = new Button();
@@ -42,8 +42,6 @@
             BackButton = new Button();
             clienteDataGroupBox = new GroupBox();
             clientActiongroupBox = new GroupBox();
-            licenceLabel = new Label();
-            licenseTextBox = new TextBox();
             ((System.ComponentModel.ISupportInitialize)clientDataGridView).BeginInit();
             clienteDataGroupBox.SuspendLayout();
             clientActiongroupBox.SuspendLayout();
@@ -56,7 +54,7 @@
             tittleLabel.Location = new Point(574, 21);
             tittleLabel.Margin = new Padding(4, 0, 4, 0);
             tittleLabel.Name = "tittleLabel";
-            tittleLabel.Size = new Size(125, 30);
+            tittleLabel.Size = new Size(97, 24);
             tittleLabel.TabIndex = 0;
             tittleLabel.Text = "Cliente";
             // 
@@ -66,27 +64,27 @@
             nameLabel.Location = new Point(36, 27);
             nameLabel.Margin = new Padding(4, 0, 4, 0);
             nameLabel.Name = "nameLabel";
-            nameLabel.Size = new Size(75, 23);
+            nameLabel.Size = new Size(62, 20);
             nameLabel.TabIndex = 1;
             nameLabel.Text = "Nombre:";
             // 
-            // lastNameLabel
+            // emailLabel
             // 
-            lastNameLabel.AutoSize = true;
-            lastNameLabel.Location = new Point(40, 100);
-            lastNameLabel.Margin = new Padding(4, 0, 4, 0);
-            lastNameLabel.Name = "lastNameLabel";
-            lastNameLabel.Size = new Size(76, 23);
-            lastNameLabel.TabIndex = 2;
-            lastNameLabel.Text = "apellido:";
+            emailLabel.AutoSize = true;
+            emailLabel.Location = new Point(40, 104);
+            emailLabel.Margin = new Padding(4, 0, 4, 0);
+            emailLabel.Name = "emailLabel";
+            emailLabel.Size = new Size(51, 20);
+            emailLabel.TabIndex = 2;
+            emailLabel.Text = "Email: ";
             // 
             // phoneLabel
             // 
             phoneLabel.AutoSize = true;
-            phoneLabel.Location = new Point(37, 189);
+            phoneLabel.Location = new Point(37, 200);
             phoneLabel.Margin = new Padding(4, 0, 4, 0);
             phoneLabel.Name = "phoneLabel";
-            phoneLabel.Size = new Size(79, 23);
+            phoneLabel.Size = new Size(64, 20);
             phoneLabel.TabIndex = 3;
             phoneLabel.Text = "Telefono:";
             // 
@@ -99,18 +97,18 @@
             nameTextBox.Size = new Size(413, 36);
             nameTextBox.TabIndex = 4;
             // 
-            // lastNameTextBox
+            // emailTextBox
             // 
-            lastNameTextBox.Location = new Point(38, 134);
-            lastNameTextBox.Margin = new Padding(4);
-            lastNameTextBox.Multiline = true;
-            lastNameTextBox.Name = "lastNameTextBox";
-            lastNameTextBox.Size = new Size(411, 36);
-            lastNameTextBox.TabIndex = 5;
+            emailTextBox.Location = new Point(38, 134);
+            emailTextBox.Margin = new Padding(4);
+            emailTextBox.Multiline = true;
+            emailTextBox.Name = "emailTextBox";
+            emailTextBox.Size = new Size(411, 36);
+            emailTextBox.TabIndex = 5;
             // 
             // phoneTextBox
             // 
-            phoneTextBox.Location = new Point(40, 225);
+            phoneTextBox.Location = new Point(40, 236);
             phoneTextBox.Margin = new Padding(4);
             phoneTextBox.Multiline = true;
             phoneTextBox.Name = "phoneTextBox";
@@ -119,52 +117,55 @@
             // 
             // addButton
             // 
+            addButton.BackColor = Color.Aquamarine;
             addButton.Location = new Point(33, 68);
             addButton.Margin = new Padding(4);
             addButton.Name = "addButton";
             addButton.Size = new Size(214, 39);
             addButton.TabIndex = 7;
             addButton.Text = "Agregar";
-            addButton.UseVisualStyleBackColor = true;
+            addButton.UseVisualStyleBackColor = false;
             addButton.Click += addButton_Click;
             // 
             // editButton
             // 
-            editButton.Location = new Point(154, 20);
+            editButton.BackColor = Color.Aquamarine;
+            editButton.Location = new Point(182, 396);
             editButton.Margin = new Padding(4);
             editButton.Name = "editButton";
             editButton.Size = new Size(215, 40);
             editButton.TabIndex = 8;
             editButton.Text = "Editar";
-            editButton.UseVisualStyleBackColor = true;
+            editButton.UseVisualStyleBackColor = false;
             editButton.Click += editButton_Click;
             // 
             // deleteButton
             // 
+            deleteButton.BackColor = Color.Aquamarine;
             deleteButton.Location = new Point(255, 68);
             deleteButton.Margin = new Padding(4);
             deleteButton.Name = "deleteButton";
             deleteButton.Size = new Size(209, 39);
             deleteButton.TabIndex = 9;
             deleteButton.Text = "Eliminar";
-            deleteButton.UseVisualStyleBackColor = true;
+            deleteButton.UseVisualStyleBackColor = false;
             deleteButton.Click += deleteButton_Click;
             // 
             // clientDataGridView
             // 
             clientDataGridView.BackgroundColor = SystemColors.Control;
             clientDataGridView.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            clientDataGridView.Location = new Point(574, 71);
+            clientDataGridView.Location = new Point(574, 88);
             clientDataGridView.Margin = new Padding(4);
             clientDataGridView.Name = "clientDataGridView";
             clientDataGridView.RowHeadersWidth = 51;
-            clientDataGridView.Size = new Size(604, 412);
+            clientDataGridView.Size = new Size(488, 348);
             clientDataGridView.TabIndex = 10;
             clientDataGridView.SelectionChanged += clientDataGridView_SelectionChanged;
             // 
             // BackButton
             // 
-            BackButton.BackColor = Color.FromArgb(255, 192, 128);
+            BackButton.BackColor = Color.Aquamarine;
             BackButton.Location = new Point(7, 6);
             BackButton.Margin = new Padding(4, 3, 4, 3);
             BackButton.Name = "BackButton";
@@ -176,17 +177,17 @@
             // 
             // clienteDataGroupBox
             // 
-            clienteDataGroupBox.Controls.Add(licenseTextBox);
-            clienteDataGroupBox.Controls.Add(licenceLabel);
             clienteDataGroupBox.Controls.Add(phoneTextBox);
-            clienteDataGroupBox.Controls.Add(lastNameTextBox);
+            clienteDataGroupBox.Controls.Add(emailTextBox);
             clienteDataGroupBox.Controls.Add(nameTextBox);
             clienteDataGroupBox.Controls.Add(phoneLabel);
-            clienteDataGroupBox.Controls.Add(lastNameLabel);
+            clienteDataGroupBox.Controls.Add(emailLabel);
             clienteDataGroupBox.Controls.Add(nameLabel);
-            clienteDataGroupBox.Location = new Point(28, 49);
+            clienteDataGroupBox.FlatStyle = FlatStyle.System;
+            clienteDataGroupBox.ForeColor = SystemColors.ActiveCaptionText;
+            clienteDataGroupBox.Location = new Point(31, 71);
             clienteDataGroupBox.Name = "clienteDataGroupBox";
-            clienteDataGroupBox.Size = new Size(512, 352);
+            clienteDataGroupBox.Size = new Size(512, 299);
             clienteDataGroupBox.TabIndex = 12;
             clienteDataGroupBox.TabStop = false;
             clienteDataGroupBox.Text = "Datos Personales";
@@ -195,43 +196,24 @@
             // 
             clientActiongroupBox.Controls.Add(addButton);
             clientActiongroupBox.Controls.Add(deleteButton);
-            clientActiongroupBox.Controls.Add(editButton);
-            clientActiongroupBox.Location = new Point(31, 443);
+            clientActiongroupBox.Location = new Point(34, 376);
             clientActiongroupBox.Name = "clientActiongroupBox";
             clientActiongroupBox.Size = new Size(509, 125);
             clientActiongroupBox.TabIndex = 13;
             clientActiongroupBox.TabStop = false;
             clientActiongroupBox.Text = "Acciones";
             // 
-            // licenceLabel
-            // 
-            licenceLabel.AutoSize = true;
-            licenceLabel.Location = new Point(38, 275);
-            licenceLabel.Margin = new Padding(4, 0, 4, 0);
-            licenceLabel.Name = "licenceLabel";
-            licenceLabel.Size = new Size(161, 23);
-            licenceLabel.TabIndex = 7;
-            licenceLabel.Text = "licencia de conducir:";
-            // 
-            // licenseTextBox
-            // 
-            licenseTextBox.Location = new Point(40, 302);
-            licenseTextBox.Margin = new Padding(4);
-            licenseTextBox.Multiline = true;
-            licenseTextBox.Name = "licenseTextBox";
-            licenseTextBox.Size = new Size(409, 43);
-            licenseTextBox.TabIndex = 8;
-            // 
             // ClientForm
             // 
-            AutoScaleDimensions = new SizeF(9F, 23F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             AutoSizeMode = AutoSizeMode.GrowAndShrink;
-            BackColor = Color.FromArgb(255, 255, 192);
-            ClientSize = new Size(1215, 600);
+            BackColor = Color.LightGray;
+            ClientSize = new Size(1070, 497);
             Controls.Add(clienteDataGroupBox);
             Controls.Add(BackButton);
             Controls.Add(clientDataGridView);
+            Controls.Add(editButton);
             Controls.Add(tittleLabel);
             Controls.Add(clientActiongroupBox);
             Font = new Font("Tw Cen MT Condensed Extra Bold", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
@@ -240,6 +222,7 @@
             Name = "ClientForm";
             Padding = new Padding(3, 0, 3, 0);
             Text = "ClientForm";
+            TransparencyKey = Color.LightGreen;
             ((System.ComponentModel.ISupportInitialize)clientDataGridView).EndInit();
             clienteDataGroupBox.ResumeLayout(false);
             clienteDataGroupBox.PerformLayout();
@@ -252,10 +235,10 @@
 
         private Label tittleLabel;
         private Label nameLabel;
-        private Label lastNameLabel;
+        private Label emailLabel;
         private Label phoneLabel;
         private TextBox nameTextBox;
-        private TextBox lastNameTextBox;
+        private TextBox emailTextBox;
         private TextBox phoneTextBox;
         private Button addButton;
         private Button editButton;
@@ -264,7 +247,5 @@
         private Button BackButton;
         private GroupBox clienteDataGroupBox;
         private GroupBox clientActiongroupBox;
-        private TextBox licenseTextBox;
-        private Label licenceLabel;
     }
 }

@@ -33,9 +33,8 @@ namespace PresentatioLayer.Forms
 
             clientDataGridView.Columns["ClienteID"].HeaderText = "ID";
             clientDataGridView.Columns["Nombre"].HeaderText = "Nombre";
-            clientDataGridView.Columns["Apellido"].HeaderText = "Apellido";
             clientDataGridView.Columns["Telefono"].HeaderText = "Teléfono";
-            clientDataGridView.Columns["Licencia"].HeaderText = "Licencia";
+            clientDataGridView.Columns["Email"].HeaderText = "Email";
         }
         private void clientDataGridView_SelectionChanged(object sender, EventArgs e)
         {
@@ -43,24 +42,18 @@ namespace PresentatioLayer.Forms
             {
                 var selectedRow = clientDataGridView.SelectedRows[0];
                 nameTextBox.Text = selectedRow.Cells["Nombre"].Value.ToString();
-                lastNameTextBox.Text = selectedRow.Cells["Apellido"].Value.ToString();
                 phoneTextBox.Text = selectedRow.Cells["Telefono"].Value.ToString();
-                licenseTextBox.Text = selectedRow.Cells["Licencia"].Value.ToString();
+                emailTextBox.Text = selectedRow.Cells["Email"].Value.ToString();
             }
         }
 
         private void addButton_Click(object sender, EventArgs e)
         {
-            string nameError, lastNameError, phoneError, licenseError;
+            string nameError, phoneError, emailError;
 
             if (!ClientFormValidation.ValidateName(nameTextBox.Text, out nameError))
             {
                 MessageBox.Show(nameError);
-                return;
-            }
-            if (!ClientFormValidation.ValidateLastName(lastNameTextBox.Text, out lastNameError))
-            {
-                MessageBox.Show(lastNameError);
                 return;
             }
 
@@ -69,23 +62,23 @@ namespace PresentatioLayer.Forms
                 MessageBox.Show(phoneError);
                 return;
             }
-            if (!ClientFormValidation.ValidateLicense(licenseTextBox.Text, out licenseError))
+
+            if (!ClientFormValidation.ValidateEmail(emailTextBox.Text, out emailError))
             {
-                MessageBox.Show(licenseError);
+                MessageBox.Show(emailError);
                 return;
             }
 
             Client client = new Client
             {
                 Name = nameTextBox.Text,
-                LastName = lastNameTextBox.Text,
                 Telephone = phoneTextBox.Text,
-                License = licenseTextBox.Text
+                Email = emailTextBox.Text
             };
 
             _clientRepository.AddClient(client);
             MessageBox.Show("Cliente agregado con éxito");
-            ClearForm();
+            ClearForm(); 
             LoadClients();
         }
 
@@ -93,16 +86,11 @@ namespace PresentatioLayer.Forms
         {
             if (clientDataGridView.SelectedRows.Count > 0)
             {
-                string nameError, lastNameError, phoneError, licenseError;
+                string nameError, phoneError, emailError;
 
                 if (!ClientFormValidation.ValidateName(nameTextBox.Text, out nameError))
                 {
                     MessageBox.Show(nameError);
-                    return;
-                }
-                if (!ClientFormValidation.ValidateLastName(lastNameTextBox.Text, out lastNameError))
-                {
-                    MessageBox.Show(lastNameError);
                     return;
                 }
 
@@ -111,21 +99,20 @@ namespace PresentatioLayer.Forms
                     MessageBox.Show(phoneError);
                     return;
                 }
-                if (!ClientFormValidation.ValidateLicense(licenseTextBox.Text, out licenseError))
+
+                if (!ClientFormValidation.ValidateEmail(emailTextBox.Text, out emailError))
                 {
-                    MessageBox.Show(licenseError);
+                    MessageBox.Show(emailError);
                     return;
                 }
-
 
                 var selectedRow = clientDataGridView.SelectedRows[0];
                 Client client = new Client
                 {
                     ClientID = Convert.ToInt32(selectedRow.Cells["ClienteID"].Value),
                     Name = nameTextBox.Text,
-                    LastName = lastNameTextBox.Text,
                     Telephone = phoneTextBox.Text,
-                    License = licenseTextBox.Text
+                    Email = emailTextBox.Text
                 };
 
                 _clientRepository.EditClient(client);
@@ -169,9 +156,8 @@ namespace PresentatioLayer.Forms
         private void ClearForm()
         {
             nameTextBox.Text = string.Empty;
-            lastNameTextBox.Text = string.Empty;
             phoneTextBox.Text = string.Empty;
-            licenseTextBox.Text = string.Empty;
+            emailTextBox.Text = string.Empty;
         }
         private void BackButton_Click(object sender, EventArgs e)
         {
