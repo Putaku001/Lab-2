@@ -1,0 +1,159 @@
+C:\Users\ivanb\OneDrive\Escritorio\rentACar\laboratorio-II\Lab-II\BusinessLayer\obj\Debug\net8.0\BusinessLayer.csproj.AssemblyReference.cache
+C:\Users\ivanb\OneDrive\Escritorio\rentACar\laboratorio-II\Lab-II\BusinessLayer\obj\Debug\net8.0\BusinessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ivanb\OneDrive\Escritorio\rentACar\laboratorio-II\Lab-II\BusinessLayer\obj\Debug\net8.0\BusinessLayer.AssemblyInfoInputs.cache
+C:\Users\ivanb\OneDrive\Escritorio\rentACar\laboratorio-II\Lab-II\BusinessLayer\obj\Debug\net8.0\BusinessLayer.AssemblyInfo.cs
+C:\Users\ivanb\OneDrive\Escritorio\rentACar\laboratorio-II\Lab-II\BusinessLayer\obj\Debug\net8.0\BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\ivanb\OneDrive\Escritorio\rentACar\laboratorio-II\Lab-II\BusinessLayer\obj\Debug\net8.0\BusinessLayer.sourcelink.json
+C:\Users\ivanb\OneDrive\Escritorio\rentACar\laboratorio-II\Lab-II\BusinessLayer\bin\Debug\net8.0\BusinessLayer.deps.json
+C:\Users\ivanb\OneDrive\Escritorio\rentACar\laboratorio-II\Lab-II\BusinessLayer\bin\Debug\net8.0\BusinessLayer.dll
+C:\Users\ivanb\OneDrive\Escritorio\rentACar\laboratorio-II\Lab-II\BusinessLayer\bin\Debug\net8.0\BusinessLayer.pdb
+C:\Users\ivanb\OneDrive\Escritorio\rentACar\laboratorio-II\Lab-II\BusinessLayer\bin\Debug\net8.0\CommonLayer.dll
+C:\Users\ivanb\OneDrive\Escritorio\rentACar\laboratorio-II\Lab-II\BusinessLayer\bin\Debug\net8.0\DataAccessLayer.dll
+C:\Users\ivanb\OneDrive\Escritorio\rentACar\laboratorio-II\Lab-II\BusinessLayer\bin\Debug\net8.0\DataAccessLayer.pdb
+C:\Users\ivanb\OneDrive\Escritorio\rentACar\laboratorio-II\Lab-II\BusinessLayer\bin\Debug\net8.0\CommonLayer.pdb
+C:\Users\ivanb\OneDrive\Escritorio\rentACar\laboratorio-II\Lab-II\BusinessLayer\obj\Debug\net8.0\Business.EA331CBA.Up2Date
+C:\Users\ivanb\OneDrive\Escritorio\rentACar\laboratorio-II\Lab-II\BusinessLayer\obj\Debug\net8.0\BusinessLayer.dll
+C:\Users\ivanb\OneDrive\Escritorio\rentACar\laboratorio-II\Lab-II\BusinessLayer\obj\Debug\net8.0\refint\BusinessLayer.dll
+C:\Users\ivanb\OneDrive\Escritorio\rentACar\laboratorio-II\Lab-II\BusinessLayer\obj\Debug\net8.0\BusinessLayer.pdb
+C:\Users\ivanb\OneDrive\Escritorio\rentACar\laboratorio-II\Lab-II\BusinessLayer\obj\Debug\net8.0\ref\BusinessLayer.dll
+C:\Users\blanc_ma7kouo\Desktop\PutakUnivo\proogra\lab II\laboratorio-II-main\Lab-II\BusinessLayer\bin\Debug\net8.0\BusinessLayer.deps.json
+C:\Users\blanc_ma7kouo\Desktop\PutakUnivo\proogra\lab II\laboratorio-II-main\Lab-II\BusinessLayer\bin\Debug\net8.0\BusinessLayer.dll
+C:\Users\blanc_ma7kouo\Desktop\PutakUnivo\proogra\lab II\laboratorio-II-main\Lab-II\BusinessLayer\bin\Debug\net8.0\BusinessLayer.pdb
+C:\Users\blanc_ma7kouo\Desktop\PutakUnivo\proogra\lab II\laboratorio-II-main\Lab-II\BusinessLayer\bin\Debug\net8.0\CommonLayer.dll
+C:\Users\blanc_ma7kouo\Desktop\PutakUnivo\proogra\lab II\laboratorio-II-main\Lab-II\BusinessLayer\bin\Debug\net8.0\DataAccessLayer.dll
+C:\Users\blanc_ma7kouo\Desktop\PutakUnivo\proogra\lab II\laboratorio-II-main\Lab-II\BusinessLayer\bin\Debug\net8.0\DataAccessLayer.pdb
+C:\Users\blanc_ma7kouo\Desktop\PutakUnivo\proogra\lab II\laboratorio-II-main\Lab-II\BusinessLayer\bin\Debug\net8.0\CommonLayer.pdb
+C:\Users\blanc_ma7kouo\Desktop\PutakUnivo\proogra\lab II\laboratorio-II-main\Lab-II\BusinessLayer\obj\Debug\net8.0\BusinessLayer.csproj.AssemblyReference.cache
+C:\Users\blanc_ma7kouo\Desktop\PutakUnivo\proogra\lab II\laboratorio-II-main\Lab-II\BusinessLayer\obj\Debug\net8.0\BusinessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\blanc_ma7kouo\Desktop\PutakUnivo\proogra\lab II\laboratorio-II-main\Lab-II\BusinessLayer\obj\Debug\net8.0\BusinessLayer.AssemblyInfoInputs.cache
+C:\Users\blanc_ma7kouo\Desktop\PutakUnivo\proogra\lab II\laboratorio-II-main\Lab-II\BusinessLayer\obj\Debug\net8.0\BusinessLayer.AssemblyInfo.cs
+C:\Users\blanc_ma7kouo\Desktop\PutakUnivo\proogra\lab II\laboratorio-II-main\Lab-II\BusinessLayer\obj\Debug\net8.0\BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\blanc_ma7kouo\Desktop\PutakUnivo\proogra\lab II\laboratorio-II-main\Lab-II\BusinessLayer\obj\Debug\net8.0\Business.EA331CBA.Up2Date
+C:\Users\blanc_ma7kouo\Desktop\PutakUnivo\proogra\lab II\laboratorio-II-main\Lab-II\BusinessLayer\obj\Debug\net8.0\BusinessLayer.dll
+C:\Users\blanc_ma7kouo\Desktop\PutakUnivo\proogra\lab II\laboratorio-II-main\Lab-II\BusinessLayer\obj\Debug\net8.0\refint\BusinessLayer.dll
+C:\Users\blanc_ma7kouo\Desktop\PutakUnivo\proogra\lab II\laboratorio-II-main\Lab-II\BusinessLayer\obj\Debug\net8.0\BusinessLayer.pdb
+C:\Users\blanc_ma7kouo\Desktop\PutakUnivo\proogra\lab II\laboratorio-II-main\Lab-II\BusinessLayer\obj\Debug\net8.0\ref\BusinessLayer.dll
+C:\Users\ivanb\OneDrive\Escritorio\rentACar\laboratorio-II\Lab-II ver(1.1)\Lab-II ver(1.1)\BusinessLayer\bin\Debug\net8.0\BusinessLayer.deps.json
+C:\Users\ivanb\OneDrive\Escritorio\rentACar\laboratorio-II\Lab-II ver(1.1)\Lab-II ver(1.1)\BusinessLayer\bin\Debug\net8.0\BusinessLayer.dll
+C:\Users\ivanb\OneDrive\Escritorio\rentACar\laboratorio-II\Lab-II ver(1.1)\Lab-II ver(1.1)\BusinessLayer\bin\Debug\net8.0\BusinessLayer.pdb
+C:\Users\ivanb\OneDrive\Escritorio\rentACar\laboratorio-II\Lab-II ver(1.1)\Lab-II ver(1.1)\BusinessLayer\bin\Debug\net8.0\CommonLayer.dll
+C:\Users\ivanb\OneDrive\Escritorio\rentACar\laboratorio-II\Lab-II ver(1.1)\Lab-II ver(1.1)\BusinessLayer\bin\Debug\net8.0\DataAccessLayer.dll
+C:\Users\ivanb\OneDrive\Escritorio\rentACar\laboratorio-II\Lab-II ver(1.1)\Lab-II ver(1.1)\BusinessLayer\bin\Debug\net8.0\DataAccessLayer.pdb
+C:\Users\ivanb\OneDrive\Escritorio\rentACar\laboratorio-II\Lab-II ver(1.1)\Lab-II ver(1.1)\BusinessLayer\bin\Debug\net8.0\CommonLayer.pdb
+C:\Users\ivanb\OneDrive\Escritorio\rentACar\laboratorio-II\Lab-II ver(1.1)\Lab-II ver(1.1)\BusinessLayer\obj\Debug\net8.0\BusinessLayer.csproj.AssemblyReference.cache
+C:\Users\ivanb\OneDrive\Escritorio\rentACar\laboratorio-II\Lab-II ver(1.1)\Lab-II ver(1.1)\BusinessLayer\obj\Debug\net8.0\BusinessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ivanb\OneDrive\Escritorio\rentACar\laboratorio-II\Lab-II ver(1.1)\Lab-II ver(1.1)\BusinessLayer\obj\Debug\net8.0\BusinessLayer.AssemblyInfoInputs.cache
+C:\Users\ivanb\OneDrive\Escritorio\rentACar\laboratorio-II\Lab-II ver(1.1)\Lab-II ver(1.1)\BusinessLayer\obj\Debug\net8.0\BusinessLayer.AssemblyInfo.cs
+C:\Users\ivanb\OneDrive\Escritorio\rentACar\laboratorio-II\Lab-II ver(1.1)\Lab-II ver(1.1)\BusinessLayer\obj\Debug\net8.0\BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\ivanb\OneDrive\Escritorio\rentACar\laboratorio-II\Lab-II ver(1.1)\Lab-II ver(1.1)\BusinessLayer\obj\Debug\net8.0\BusinessLayer.sourcelink.json
+C:\Users\ivanb\OneDrive\Escritorio\rentACar\laboratorio-II\Lab-II ver(1.1)\Lab-II ver(1.1)\BusinessLayer\obj\Debug\net8.0\Business.EA331CBA.Up2Date
+C:\Users\ivanb\OneDrive\Escritorio\rentACar\laboratorio-II\Lab-II ver(1.1)\Lab-II ver(1.1)\BusinessLayer\obj\Debug\net8.0\BusinessLayer.dll
+C:\Users\ivanb\OneDrive\Escritorio\rentACar\laboratorio-II\Lab-II ver(1.1)\Lab-II ver(1.1)\BusinessLayer\obj\Debug\net8.0\refint\BusinessLayer.dll
+C:\Users\ivanb\OneDrive\Escritorio\rentACar\laboratorio-II\Lab-II ver(1.1)\Lab-II ver(1.1)\BusinessLayer\obj\Debug\net8.0\BusinessLayer.pdb
+C:\Users\ivanb\OneDrive\Escritorio\rentACar\laboratorio-II\Lab-II ver(1.1)\Lab-II ver(1.1)\BusinessLayer\obj\Debug\net8.0\ref\BusinessLayer.dll
+C:\Users\MINEDUCYT\Desktop\CICLO V\POE\LabII\laboratorio-II\RentACarSystem\BusinessLayer\bin\Debug\net8.0\BusinessLayer.deps.json
+C:\Users\MINEDUCYT\Desktop\CICLO V\POE\LabII\laboratorio-II\RentACarSystem\BusinessLayer\bin\Debug\net8.0\BusinessLayer.dll
+C:\Users\MINEDUCYT\Desktop\CICLO V\POE\LabII\laboratorio-II\RentACarSystem\BusinessLayer\bin\Debug\net8.0\BusinessLayer.pdb
+C:\Users\MINEDUCYT\Desktop\CICLO V\POE\LabII\laboratorio-II\RentACarSystem\BusinessLayer\bin\Debug\net8.0\CommonLayer.dll
+C:\Users\MINEDUCYT\Desktop\CICLO V\POE\LabII\laboratorio-II\RentACarSystem\BusinessLayer\bin\Debug\net8.0\DataAccessLayer.dll
+C:\Users\MINEDUCYT\Desktop\CICLO V\POE\LabII\laboratorio-II\RentACarSystem\BusinessLayer\bin\Debug\net8.0\DataAccessLayer.pdb
+C:\Users\MINEDUCYT\Desktop\CICLO V\POE\LabII\laboratorio-II\RentACarSystem\BusinessLayer\bin\Debug\net8.0\CommonLayer.pdb
+C:\Users\MINEDUCYT\Desktop\CICLO V\POE\LabII\laboratorio-II\RentACarSystem\BusinessLayer\obj\Debug\net8.0\BusinessLayer.csproj.AssemblyReference.cache
+C:\Users\MINEDUCYT\Desktop\CICLO V\POE\LabII\laboratorio-II\RentACarSystem\BusinessLayer\obj\Debug\net8.0\BusinessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MINEDUCYT\Desktop\CICLO V\POE\LabII\laboratorio-II\RentACarSystem\BusinessLayer\obj\Debug\net8.0\BusinessLayer.AssemblyInfoInputs.cache
+C:\Users\MINEDUCYT\Desktop\CICLO V\POE\LabII\laboratorio-II\RentACarSystem\BusinessLayer\obj\Debug\net8.0\BusinessLayer.AssemblyInfo.cs
+C:\Users\MINEDUCYT\Desktop\CICLO V\POE\LabII\laboratorio-II\RentACarSystem\BusinessLayer\obj\Debug\net8.0\BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\MINEDUCYT\Desktop\CICLO V\POE\LabII\laboratorio-II\RentACarSystem\BusinessLayer\obj\Debug\net8.0\BusinessLayer.sourcelink.json
+C:\Users\MINEDUCYT\Desktop\CICLO V\POE\LabII\laboratorio-II\RentACarSystem\BusinessLayer\obj\Debug\net8.0\Business.EA331CBA.Up2Date
+C:\Users\MINEDUCYT\Desktop\CICLO V\POE\LabII\laboratorio-II\RentACarSystem\BusinessLayer\obj\Debug\net8.0\BusinessLayer.dll
+C:\Users\MINEDUCYT\Desktop\CICLO V\POE\LabII\laboratorio-II\RentACarSystem\BusinessLayer\obj\Debug\net8.0\refint\BusinessLayer.dll
+C:\Users\MINEDUCYT\Desktop\CICLO V\POE\LabII\laboratorio-II\RentACarSystem\BusinessLayer\obj\Debug\net8.0\BusinessLayer.pdb
+C:\Users\MINEDUCYT\Desktop\CICLO V\POE\LabII\laboratorio-II\RentACarSystem\BusinessLayer\obj\Debug\net8.0\ref\BusinessLayer.dll
+C:\Users\kenne\Documents\laboratorio-II-main\RentACarSystem\BusinessLayer\bin\Debug\net8.0\BusinessLayer.deps.json
+C:\Users\kenne\Documents\laboratorio-II-main\RentACarSystem\BusinessLayer\bin\Debug\net8.0\BusinessLayer.dll
+C:\Users\kenne\Documents\laboratorio-II-main\RentACarSystem\BusinessLayer\bin\Debug\net8.0\BusinessLayer.pdb
+C:\Users\kenne\Documents\laboratorio-II-main\RentACarSystem\BusinessLayer\bin\Debug\net8.0\CommonLayer.dll
+C:\Users\kenne\Documents\laboratorio-II-main\RentACarSystem\BusinessLayer\bin\Debug\net8.0\DataAccessLayer.dll
+C:\Users\kenne\Documents\laboratorio-II-main\RentACarSystem\BusinessLayer\bin\Debug\net8.0\DataAccessLayer.pdb
+C:\Users\kenne\Documents\laboratorio-II-main\RentACarSystem\BusinessLayer\bin\Debug\net8.0\CommonLayer.pdb
+C:\Users\kenne\Documents\laboratorio-II-main\RentACarSystem\BusinessLayer\obj\Debug\net8.0\BusinessLayer.csproj.AssemblyReference.cache
+C:\Users\kenne\Documents\laboratorio-II-main\RentACarSystem\BusinessLayer\obj\Debug\net8.0\BusinessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kenne\Documents\laboratorio-II-main\RentACarSystem\BusinessLayer\obj\Debug\net8.0\BusinessLayer.AssemblyInfoInputs.cache
+C:\Users\kenne\Documents\laboratorio-II-main\RentACarSystem\BusinessLayer\obj\Debug\net8.0\BusinessLayer.AssemblyInfo.cs
+C:\Users\kenne\Documents\laboratorio-II-main\RentACarSystem\BusinessLayer\obj\Debug\net8.0\BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\kenne\Documents\laboratorio-II-main\RentACarSystem\BusinessLayer\obj\Debug\net8.0\Business.EA331CBA.Up2Date
+C:\Users\kenne\Documents\laboratorio-II-main\RentACarSystem\BusinessLayer\obj\Debug\net8.0\BusinessLayer.dll
+C:\Users\kenne\Documents\laboratorio-II-main\RentACarSystem\BusinessLayer\obj\Debug\net8.0\refint\BusinessLayer.dll
+C:\Users\kenne\Documents\laboratorio-II-main\RentACarSystem\BusinessLayer\obj\Debug\net8.0\BusinessLayer.pdb
+C:\Users\kenne\Documents\laboratorio-II-main\RentACarSystem\BusinessLayer\obj\Debug\net8.0\ref\BusinessLayer.dll
+C:\Users\ivanb\OneDrive\Escritorio\laboratorio-II-main\laboratorio-II-main\RentACarSystem\BusinessLayer\bin\Debug\net8.0\BusinessLayer.deps.json
+C:\Users\ivanb\OneDrive\Escritorio\laboratorio-II-main\laboratorio-II-main\RentACarSystem\BusinessLayer\bin\Debug\net8.0\BusinessLayer.dll
+C:\Users\ivanb\OneDrive\Escritorio\laboratorio-II-main\laboratorio-II-main\RentACarSystem\BusinessLayer\bin\Debug\net8.0\BusinessLayer.pdb
+C:\Users\ivanb\OneDrive\Escritorio\laboratorio-II-main\laboratorio-II-main\RentACarSystem\BusinessLayer\bin\Debug\net8.0\CommonLayer.dll
+C:\Users\ivanb\OneDrive\Escritorio\laboratorio-II-main\laboratorio-II-main\RentACarSystem\BusinessLayer\bin\Debug\net8.0\DataAccessLayer.dll
+C:\Users\ivanb\OneDrive\Escritorio\laboratorio-II-main\laboratorio-II-main\RentACarSystem\BusinessLayer\bin\Debug\net8.0\DataAccessLayer.pdb
+C:\Users\ivanb\OneDrive\Escritorio\laboratorio-II-main\laboratorio-II-main\RentACarSystem\BusinessLayer\bin\Debug\net8.0\CommonLayer.pdb
+C:\Users\ivanb\OneDrive\Escritorio\laboratorio-II-main\laboratorio-II-main\RentACarSystem\BusinessLayer\obj\Debug\net8.0\BusinessLayer.csproj.AssemblyReference.cache
+C:\Users\ivanb\OneDrive\Escritorio\laboratorio-II-main\laboratorio-II-main\RentACarSystem\BusinessLayer\obj\Debug\net8.0\BusinessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ivanb\OneDrive\Escritorio\laboratorio-II-main\laboratorio-II-main\RentACarSystem\BusinessLayer\obj\Debug\net8.0\BusinessLayer.AssemblyInfoInputs.cache
+C:\Users\ivanb\OneDrive\Escritorio\laboratorio-II-main\laboratorio-II-main\RentACarSystem\BusinessLayer\obj\Debug\net8.0\BusinessLayer.AssemblyInfo.cs
+C:\Users\ivanb\OneDrive\Escritorio\laboratorio-II-main\laboratorio-II-main\RentACarSystem\BusinessLayer\obj\Debug\net8.0\BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\ivanb\OneDrive\Escritorio\laboratorio-II-main\laboratorio-II-main\RentACarSystem\BusinessLayer\obj\Debug\net8.0\Business.EA331CBA.Up2Date
+C:\Users\ivanb\OneDrive\Escritorio\laboratorio-II-main\laboratorio-II-main\RentACarSystem\BusinessLayer\obj\Debug\net8.0\BusinessLayer.dll
+C:\Users\ivanb\OneDrive\Escritorio\laboratorio-II-main\laboratorio-II-main\RentACarSystem\BusinessLayer\obj\Debug\net8.0\refint\BusinessLayer.dll
+C:\Users\ivanb\OneDrive\Escritorio\laboratorio-II-main\laboratorio-II-main\RentACarSystem\BusinessLayer\obj\Debug\net8.0\BusinessLayer.pdb
+C:\Users\ivanb\OneDrive\Escritorio\laboratorio-II-main\laboratorio-II-main\RentACarSystem\BusinessLayer\obj\Debug\net8.0\ref\BusinessLayer.dll
+C:\Users\ivanb\OneDrive\Escritorio\rentACar\laboratorio-II\RentACarSystem\BusinessLayer\bin\Debug\net8.0\BusinessLayer.deps.json
+C:\Users\ivanb\OneDrive\Escritorio\rentACar\laboratorio-II\RentACarSystem\BusinessLayer\bin\Debug\net8.0\BusinessLayer.dll
+C:\Users\ivanb\OneDrive\Escritorio\rentACar\laboratorio-II\RentACarSystem\BusinessLayer\bin\Debug\net8.0\BusinessLayer.pdb
+C:\Users\ivanb\OneDrive\Escritorio\rentACar\laboratorio-II\RentACarSystem\BusinessLayer\bin\Debug\net8.0\CommonLayer.dll
+C:\Users\ivanb\OneDrive\Escritorio\rentACar\laboratorio-II\RentACarSystem\BusinessLayer\bin\Debug\net8.0\DataAccessLayer.dll
+C:\Users\ivanb\OneDrive\Escritorio\rentACar\laboratorio-II\RentACarSystem\BusinessLayer\bin\Debug\net8.0\DataAccessLayer.pdb
+C:\Users\ivanb\OneDrive\Escritorio\rentACar\laboratorio-II\RentACarSystem\BusinessLayer\bin\Debug\net8.0\CommonLayer.pdb
+C:\Users\ivanb\OneDrive\Escritorio\rentACar\laboratorio-II\RentACarSystem\BusinessLayer\obj\Debug\net8.0\BusinessLayer.csproj.AssemblyReference.cache
+C:\Users\ivanb\OneDrive\Escritorio\rentACar\laboratorio-II\RentACarSystem\BusinessLayer\obj\Debug\net8.0\BusinessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ivanb\OneDrive\Escritorio\rentACar\laboratorio-II\RentACarSystem\BusinessLayer\obj\Debug\net8.0\BusinessLayer.AssemblyInfoInputs.cache
+C:\Users\ivanb\OneDrive\Escritorio\rentACar\laboratorio-II\RentACarSystem\BusinessLayer\obj\Debug\net8.0\BusinessLayer.AssemblyInfo.cs
+C:\Users\ivanb\OneDrive\Escritorio\rentACar\laboratorio-II\RentACarSystem\BusinessLayer\obj\Debug\net8.0\BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\ivanb\OneDrive\Escritorio\rentACar\laboratorio-II\RentACarSystem\BusinessLayer\obj\Debug\net8.0\BusinessLayer.sourcelink.json
+C:\Users\ivanb\OneDrive\Escritorio\rentACar\laboratorio-II\RentACarSystem\BusinessLayer\obj\Debug\net8.0\Business.EA331CBA.Up2Date
+C:\Users\ivanb\OneDrive\Escritorio\rentACar\laboratorio-II\RentACarSystem\BusinessLayer\obj\Debug\net8.0\BusinessLayer.dll
+C:\Users\ivanb\OneDrive\Escritorio\rentACar\laboratorio-II\RentACarSystem\BusinessLayer\obj\Debug\net8.0\refint\BusinessLayer.dll
+C:\Users\ivanb\OneDrive\Escritorio\rentACar\laboratorio-II\RentACarSystem\BusinessLayer\obj\Debug\net8.0\BusinessLayer.pdb
+C:\Users\ivanb\OneDrive\Escritorio\rentACar\laboratorio-II\RentACarSystem\BusinessLayer\obj\Debug\net8.0\ref\BusinessLayer.dll
+C:\Users\kenne\Documents\laboratorio-II\RentACarSystem\BusinessLayer\bin\Debug\net8.0\BusinessLayer.deps.json
+C:\Users\kenne\Documents\laboratorio-II\RentACarSystem\BusinessLayer\bin\Debug\net8.0\BusinessLayer.dll
+C:\Users\kenne\Documents\laboratorio-II\RentACarSystem\BusinessLayer\bin\Debug\net8.0\BusinessLayer.pdb
+C:\Users\kenne\Documents\laboratorio-II\RentACarSystem\BusinessLayer\bin\Debug\net8.0\CommonLayer.dll
+C:\Users\kenne\Documents\laboratorio-II\RentACarSystem\BusinessLayer\bin\Debug\net8.0\DataAccessLayer.dll
+C:\Users\kenne\Documents\laboratorio-II\RentACarSystem\BusinessLayer\bin\Debug\net8.0\DataAccessLayer.pdb
+C:\Users\kenne\Documents\laboratorio-II\RentACarSystem\BusinessLayer\bin\Debug\net8.0\CommonLayer.pdb
+C:\Users\kenne\Documents\laboratorio-II\RentACarSystem\BusinessLayer\obj\Debug\net8.0\BusinessLayer.csproj.AssemblyReference.cache
+C:\Users\kenne\Documents\laboratorio-II\RentACarSystem\BusinessLayer\obj\Debug\net8.0\BusinessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kenne\Documents\laboratorio-II\RentACarSystem\BusinessLayer\obj\Debug\net8.0\BusinessLayer.AssemblyInfoInputs.cache
+C:\Users\kenne\Documents\laboratorio-II\RentACarSystem\BusinessLayer\obj\Debug\net8.0\BusinessLayer.AssemblyInfo.cs
+C:\Users\kenne\Documents\laboratorio-II\RentACarSystem\BusinessLayer\obj\Debug\net8.0\BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\kenne\Documents\laboratorio-II\RentACarSystem\BusinessLayer\obj\Debug\net8.0\BusinessLayer.sourcelink.json
+C:\Users\kenne\Documents\laboratorio-II\RentACarSystem\BusinessLayer\obj\Debug\net8.0\Business.EA331CBA.Up2Date
+C:\Users\kenne\Documents\laboratorio-II\RentACarSystem\BusinessLayer\obj\Debug\net8.0\BusinessLayer.dll
+C:\Users\kenne\Documents\laboratorio-II\RentACarSystem\BusinessLayer\obj\Debug\net8.0\refint\BusinessLayer.dll
+C:\Users\kenne\Documents\laboratorio-II\RentACarSystem\BusinessLayer\obj\Debug\net8.0\BusinessLayer.pdb
+C:\Users\kenne\Documents\laboratorio-II\RentACarSystem\BusinessLayer\obj\Debug\net8.0\ref\BusinessLayer.dll
+C:\Users\ivanb\OneDrive\Escritorio\Renta de carros\Lab-2\RentACarSystem\BusinessLayer\bin\Debug\net8.0\BusinessLayer.deps.json
+C:\Users\ivanb\OneDrive\Escritorio\Renta de carros\Lab-2\RentACarSystem\BusinessLayer\bin\Debug\net8.0\BusinessLayer.dll
+C:\Users\ivanb\OneDrive\Escritorio\Renta de carros\Lab-2\RentACarSystem\BusinessLayer\bin\Debug\net8.0\BusinessLayer.pdb
+C:\Users\ivanb\OneDrive\Escritorio\Renta de carros\Lab-2\RentACarSystem\BusinessLayer\bin\Debug\net8.0\CommonLayer.dll
+C:\Users\ivanb\OneDrive\Escritorio\Renta de carros\Lab-2\RentACarSystem\BusinessLayer\bin\Debug\net8.0\DataAccessLayer.dll
+C:\Users\ivanb\OneDrive\Escritorio\Renta de carros\Lab-2\RentACarSystem\BusinessLayer\bin\Debug\net8.0\DataAccessLayer.pdb
+C:\Users\ivanb\OneDrive\Escritorio\Renta de carros\Lab-2\RentACarSystem\BusinessLayer\bin\Debug\net8.0\CommonLayer.pdb
+C:\Users\ivanb\OneDrive\Escritorio\Renta de carros\Lab-2\RentACarSystem\BusinessLayer\obj\Debug\net8.0\BusinessLayer.csproj.AssemblyReference.cache
+C:\Users\ivanb\OneDrive\Escritorio\Renta de carros\Lab-2\RentACarSystem\BusinessLayer\obj\Debug\net8.0\BusinessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ivanb\OneDrive\Escritorio\Renta de carros\Lab-2\RentACarSystem\BusinessLayer\obj\Debug\net8.0\BusinessLayer.AssemblyInfoInputs.cache
+C:\Users\ivanb\OneDrive\Escritorio\Renta de carros\Lab-2\RentACarSystem\BusinessLayer\obj\Debug\net8.0\BusinessLayer.AssemblyInfo.cs
+C:\Users\ivanb\OneDrive\Escritorio\Renta de carros\Lab-2\RentACarSystem\BusinessLayer\obj\Debug\net8.0\BusinessLayer.csproj.CoreCompileInputs.cache
+C:\Users\ivanb\OneDrive\Escritorio\Renta de carros\Lab-2\RentACarSystem\BusinessLayer\obj\Debug\net8.0\BusinessLayer.sourcelink.json
+C:\Users\ivanb\OneDrive\Escritorio\Renta de carros\Lab-2\RentACarSystem\BusinessLayer\obj\Debug\net8.0\Business.EA331CBA.Up2Date
+C:\Users\ivanb\OneDrive\Escritorio\Renta de carros\Lab-2\RentACarSystem\BusinessLayer\obj\Debug\net8.0\BusinessLayer.dll
+C:\Users\ivanb\OneDrive\Escritorio\Renta de carros\Lab-2\RentACarSystem\BusinessLayer\obj\Debug\net8.0\refint\BusinessLayer.dll
+C:\Users\ivanb\OneDrive\Escritorio\Renta de carros\Lab-2\RentACarSystem\BusinessLayer\obj\Debug\net8.0\BusinessLayer.pdb
+C:\Users\ivanb\OneDrive\Escritorio\Renta de carros\Lab-2\RentACarSystem\BusinessLayer\obj\Debug\net8.0\ref\BusinessLayer.dll

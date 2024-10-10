@@ -1,0 +1,140 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ivanb\\OneDrive\\Escritorio\\Renta de carros\\Lab-2\\RentACarSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{25D936CD-2FB7-4923-B05D-6AC89E5EEB4A}|PresentatioLayer\\PresentatioLayer.csproj|c:\\users\\ivanb\\onedrive\\escritorio\\renta de carros\\lab-2\\rentacarsystem\\presentatiolayer\\forms\\rentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25D936CD-2FB7-4923-B05D-6AC89E5EEB4A}|PresentatioLayer\\PresentatioLayer.csproj|solutionrelative:presentatiolayer\\forms\\rentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48AC215E-2C88-4B2E-96C3-B31FF32A4D5F}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\ivanb\\onedrive\\escritorio\\renta de carros\\lab-2\\rentacarsystem\\dataaccesslayer\\dbconnect\\sqlconnect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48AC215E-2C88-4B2E-96C3-B31FF32A4D5F}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\dbconnect\\sqlconnect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48AC215E-2C88-4B2E-96C3-B31FF32A4D5F}|DataAccessLayer\\DataAccessLayer.csproj|c:\\users\\ivanb\\onedrive\\escritorio\\renta de carros\\lab-2\\rentacarsystem\\dataaccesslayer\\repositories\\rentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48AC215E-2C88-4B2E-96C3-B31FF32A4D5F}|DataAccessLayer\\DataAccessLayer.csproj|solutionrelative:dataaccesslayer\\repositories\\rentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25D936CD-2FB7-4923-B05D-6AC89E5EEB4A}|PresentatioLayer\\PresentatioLayer.csproj|c:\\users\\ivanb\\onedrive\\escritorio\\renta de carros\\lab-2\\rentacarsystem\\presentatiolayer\\validation\\rentformvalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25D936CD-2FB7-4923-B05D-6AC89E5EEB4A}|PresentatioLayer\\PresentatioLayer.csproj|solutionrelative:presentatiolayer\\validation\\rentformvalidation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25D936CD-2FB7-4923-B05D-6AC89E5EEB4A}|PresentatioLayer\\PresentatioLayer.csproj|C:\\Users\\ivanb\\OneDrive\\Escritorio\\Renta de carros\\Lab-2\\RentACarSystem\\presentatiolayer\\forms\\rentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{25D936CD-2FB7-4923-B05D-6AC89E5EEB4A}|PresentatioLayer\\PresentatioLayer.csproj|solutionrelative:presentatiolayer\\forms\\rentform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25D936CD-2FB7-4923-B05D-6AC89E5EEB4A}|PresentatioLayer\\PresentatioLayer.csproj|c:\\users\\ivanb\\onedrive\\escritorio\\renta de carros\\lab-2\\rentacarsystem\\presentatiolayer\\forms\\carsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{25D936CD-2FB7-4923-B05D-6AC89E5EEB4A}|PresentatioLayer\\PresentatioLayer.csproj|solutionrelative:presentatiolayer\\forms\\carsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{25D936CD-2FB7-4923-B05D-6AC89E5EEB4A}|PresentatioLayer\\PresentatioLayer.csproj|C:\\Users\\ivanb\\OneDrive\\Escritorio\\Renta de carros\\Lab-2\\RentACarSystem\\presentatiolayer\\forms\\carsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{25D936CD-2FB7-4923-B05D-6AC89E5EEB4A}|PresentatioLayer\\PresentatioLayer.csproj|solutionrelative:presentatiolayer\\forms\\carsform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RentFormValidation.cs",
+              "DocumentMoniker": "C:\\Users\\ivanb\\OneDrive\\Escritorio\\Renta de carros\\Lab-2\\RentACarSystem\\PresentatioLayer\\Validation\\RentFormValidation.cs",
+              "RelativeDocumentMoniker": "PresentatioLayer\\Validation\\RentFormValidation.cs",
+              "ToolTip": "C:\\Users\\ivanb\\OneDrive\\Escritorio\\Renta de carros\\Lab-2\\RentACarSystem\\PresentatioLayer\\Validation\\RentFormValidation.cs",
+              "RelativeToolTip": "PresentatioLayer\\Validation\\RentFormValidation.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAuwC8AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T07:10:13.968Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RentForm.cs",
+              "DocumentMoniker": "C:\\Users\\ivanb\\OneDrive\\Escritorio\\Renta de carros\\Lab-2\\RentACarSystem\\PresentatioLayer\\Forms\\RentForm.cs",
+              "RelativeDocumentMoniker": "PresentatioLayer\\Forms\\RentForm.cs",
+              "ToolTip": "C:\\Users\\ivanb\\OneDrive\\Escritorio\\Renta de carros\\Lab-2\\RentACarSystem\\PresentatioLayer\\Forms\\RentForm.cs",
+              "RelativeToolTip": "PresentatioLayer\\Forms\\RentForm.cs",
+              "ViewState": "AQIAALEAAAAAAAAAAAAmwPIAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T05:22:35.029Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "sqlConnect.cs",
+              "DocumentMoniker": "C:\\Users\\ivanb\\OneDrive\\Escritorio\\Renta de carros\\Lab-2\\RentACarSystem\\DataAccessLayer\\dbConnect\\sqlConnect.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\dbConnect\\sqlConnect.cs",
+              "ToolTip": "C:\\Users\\ivanb\\OneDrive\\Escritorio\\Renta de carros\\Lab-2\\RentACarSystem\\DataAccessLayer\\dbConnect\\sqlConnect.cs",
+              "RelativeToolTip": "DataAccessLayer\\dbConnect\\sqlConnect.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T07:17:43.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CarsForm.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\ivanb\\OneDrive\\Escritorio\\Renta de carros\\Lab-2\\RentACarSystem\\PresentatioLayer\\Forms\\CarsForm.cs",
+              "RelativeDocumentMoniker": "PresentatioLayer\\Forms\\CarsForm.cs",
+              "ToolTip": "C:\\Users\\kenne\\Documents\\laboratorio-II\\RentACarSystem\\PresentatioLayer\\Forms\\CarsForm.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\kenne\\Documents\\laboratorio-II\\RentACarSystem\\PresentatioLayer\\Forms\\CarsForm.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T07:32:23.627Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CarsForm.cs",
+              "DocumentMoniker": "C:\\Users\\ivanb\\OneDrive\\Escritorio\\Renta de carros\\Lab-2\\RentACarSystem\\PresentatioLayer\\Forms\\CarsForm.cs",
+              "RelativeDocumentMoniker": "PresentatioLayer\\Forms\\CarsForm.cs",
+              "ToolTip": "C:\\Users\\ivanb\\OneDrive\\Escritorio\\Renta de carros\\Lab-2\\RentACarSystem\\PresentatioLayer\\Forms\\CarsForm.cs",
+              "RelativeToolTip": "PresentatioLayer\\Forms\\CarsForm.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T07:32:26.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\ivanb\\OneDrive\\Escritorio\\Renta de carros\\Lab-2\\RentACarSystem\\DataAccessLayer\\Repositories\\RentRepository.cs",
+              "RelativeDocumentMoniker": "DataAccessLayer\\Repositories\\RentRepository.cs",
+              "ToolTip": "C:\\Users\\ivanb\\OneDrive\\Escritorio\\Renta de carros\\Lab-2\\RentACarSystem\\DataAccessLayer\\Repositories\\RentRepository.cs",
+              "RelativeToolTip": "DataAccessLayer\\Repositories\\RentRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T05:19:59.297Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RentForm.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\ivanb\\OneDrive\\Escritorio\\Renta de carros\\Lab-2\\RentACarSystem\\PresentatioLayer\\Forms\\RentForm.cs",
+              "RelativeDocumentMoniker": "PresentatioLayer\\Forms\\RentForm.cs",
+              "ToolTip": "C:\\Users\\kenne\\Documents\\laboratorio-II\\RentACarSystem\\PresentatioLayer\\Forms\\RentForm.cs [Dise\u00F1o]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\kenne\\Documents\\laboratorio-II\\RentACarSystem\\PresentatioLayer\\Forms\\RentForm.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T05:22:32.281Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
