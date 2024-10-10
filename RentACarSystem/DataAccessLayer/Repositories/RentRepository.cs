@@ -29,7 +29,7 @@ namespace DataAccessLayer.Repositories
                                 R.RentaID,
                                 CONCAT(C.Nombre, ' ', C.Apellido) AS Cliente,
 	                            C.Licencia,
-                                CONCAT(V.Modelo, ' ', V.Marca) AS Carro,
+                                CONCAT(V.Marca, ' ', V.Modelo) AS Carro,
                                 FORMAT(R.FechaRenta, 'dd-MM-yyyy') AS FechaRenta,            -- Alias para FechaRenta
                                 R.HoraRenta AS HoraRenta,
                                 FORMAT(R.FechaDevolucion, 'dd-MM-yyyy') AS FechaDevolucion,  -- Alias para FechaDevolucion

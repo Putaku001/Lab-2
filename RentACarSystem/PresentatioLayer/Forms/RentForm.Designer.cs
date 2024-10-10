@@ -28,6 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
+            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle3 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle4 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle5 = new DataGridViewCellStyle();
             clientsButton = new Button();
             carsButton = new Button();
             clientsLabel = new Label();
@@ -54,177 +59,218 @@
             // 
             // clientsButton
             // 
-            clientsButton.BackColor = SystemColors.ActiveCaption;
-            clientsButton.Location = new Point(96, 26);
+            clientsButton.BackColor = Color.LightGray;
+            clientsButton.Location = new Point(971, 21);
             clientsButton.Margin = new Padding(0);
             clientsButton.Name = "clientsButton";
-            clientsButton.Size = new Size(187, 36);
+            clientsButton.Size = new Size(250, 43);
             clientsButton.TabIndex = 0;
-            clientsButton.Text = "Agregar Nuevo Cliente";
+            clientsButton.Text = "registro de clientes";
             clientsButton.UseVisualStyleBackColor = false;
             clientsButton.Click += clientsButton_Click;
             // 
             // carsButton
             // 
-            carsButton.BackColor = SystemColors.ActiveCaption;
-            carsButton.Location = new Point(96, 110);
-            carsButton.Margin = new Padding(4, 3, 4, 3);
+            carsButton.BackColor = Color.LightGray;
+            carsButton.Location = new Point(971, 113);
+            carsButton.Margin = new Padding(5, 3, 5, 3);
             carsButton.Name = "carsButton";
-            carsButton.Size = new Size(187, 37);
+            carsButton.Size = new Size(250, 44);
             carsButton.TabIndex = 1;
-            carsButton.Text = "Agregar Nuevo Carro";
+            carsButton.Text = "registro de carros";
             carsButton.UseVisualStyleBackColor = false;
             carsButton.Click += carsButton_Click;
             // 
             // clientsLabel
             // 
-            clientsLabel.AutoSize = true;
-            clientsLabel.BackColor = SystemColors.ActiveCaption;
-            clientsLabel.Font = new Font("Tw Cen MT Condensed Extra Bold", 12F);
-            clientsLabel.Location = new Point(41, 69);
-            clientsLabel.Margin = new Padding(4, 0, 4, 0);
+            clientsLabel.BackColor = Color.LightGray;
+            clientsLabel.BorderStyle = BorderStyle.Fixed3D;
+            clientsLabel.Font = new Font("Bahnschrift", 13F);
+            clientsLabel.Location = new Point(34, 43);
+            clientsLabel.Margin = new Padding(5, 0, 5, 0);
             clientsLabel.Name = "clientsLabel";
-            clientsLabel.Size = new Size(151, 23);
+            clientsLabel.Size = new Size(210, 34);
             clientsLabel.TabIndex = 2;
             clientsLabel.Text = "Seleccionar Cliente";
             // 
             // CarLabel
             // 
-            CarLabel.AutoSize = true;
-            CarLabel.BackColor = SystemColors.ActiveCaption;
-            CarLabel.Font = new Font("Tw Cen MT Condensed Extra Bold", 12F);
-            CarLabel.Location = new Point(51, 165);
-            CarLabel.Margin = new Padding(4, 0, 4, 0);
+            CarLabel.BackColor = Color.LightGray;
+            CarLabel.Font = new Font("Bahnschrift", 13F);
+            CarLabel.Location = new Point(34, 123);
+            CarLabel.Margin = new Padding(5, 0, 5, 0);
             CarLabel.Name = "CarLabel";
-            CarLabel.Size = new Size(141, 23);
+            CarLabel.Size = new Size(210, 34);
             CarLabel.TabIndex = 3;
             CarLabel.Text = "Seleccionar Carro";
             // 
             // rentDateLabel
             // 
-            rentDateLabel.AutoSize = true;
-            rentDateLabel.BackColor = SystemColors.ActiveCaption;
-            rentDateLabel.Font = new Font("Tw Cen MT Condensed Extra Bold", 12F);
-            rentDateLabel.Location = new Point(118, 243);
-            rentDateLabel.Margin = new Padding(4, 0, 4, 0);
+            rentDateLabel.BackColor = Color.LightGray;
+            rentDateLabel.BorderStyle = BorderStyle.Fixed3D;
+            rentDateLabel.Font = new Font("Bahnschrift", 13F);
+            rentDateLabel.Location = new Point(11, 224);
+            rentDateLabel.Margin = new Padding(5, 0, 5, 0);
             rentDateLabel.Name = "rentDateLabel";
-            rentDateLabel.Size = new Size(175, 23);
+            rentDateLabel.Size = new Size(250, 44);
             rentDateLabel.TabIndex = 4;
             rentDateLabel.Text = "Fecha y hora de retiro";
             // 
             // rentReturnLabel
             // 
-            rentReturnLabel.AutoSize = true;
-            rentReturnLabel.BackColor = SystemColors.ActiveCaption;
-            rentReturnLabel.Font = new Font("Tw Cen MT Condensed Extra Bold", 12F);
-            rentReturnLabel.Location = new Point(71, 342);
-            rentReturnLabel.Margin = new Padding(4, 0, 4, 0);
+            rentReturnLabel.BackColor = Color.LightGray;
+            rentReturnLabel.BorderStyle = BorderStyle.Fixed3D;
+            rentReturnLabel.Font = new Font("Bahnschrift", 13F);
+            rentReturnLabel.Location = new Point(11, 298);
+            rentReturnLabel.Margin = new Padding(5, 0, 5, 0);
             rentReturnLabel.Name = "rentReturnLabel";
-            rentReturnLabel.Size = new Size(212, 23);
+            rentReturnLabel.Size = new Size(286, 42);
             rentReturnLabel.TabIndex = 5;
             rentReturnLabel.Text = "Fecha y hora de devolucion";
             // 
             // saveRentButton
             // 
-            saveRentButton.BackColor = SystemColors.ActiveCaption;
+            saveRentButton.BackColor = Color.LightGray;
             saveRentButton.ForeColor = Color.Black;
-            saveRentButton.Location = new Point(13, 559);
-            saveRentButton.Margin = new Padding(4, 3, 4, 3);
+            saveRentButton.Location = new Point(1340, 109);
+            saveRentButton.Margin = new Padding(5, 3, 5, 3);
             saveRentButton.Name = "saveRentButton";
-            saveRentButton.Size = new Size(133, 59);
+            saveRentButton.Size = new Size(146, 70);
             saveRentButton.TabIndex = 6;
             saveRentButton.Text = "Guardar";
             saveRentButton.UseVisualStyleBackColor = false;
+            saveRentButton.Click += saveRentButton_Click;
             // 
             // editRentButton
             // 
-            editRentButton.BackColor = SystemColors.ActiveCaption;
-            editRentButton.Location = new Point(321, 559);
-            editRentButton.Margin = new Padding(4, 3, 4, 3);
+            editRentButton.BackColor = Color.LightGray;
+            editRentButton.Location = new Point(1340, 238);
+            editRentButton.Margin = new Padding(5, 3, 5, 3);
             editRentButton.Name = "editRentButton";
-            editRentButton.Size = new Size(133, 59);
+            editRentButton.Size = new Size(146, 70);
             editRentButton.TabIndex = 7;
             editRentButton.Text = "Editar";
             editRentButton.UseVisualStyleBackColor = false;
+            editRentButton.Click += editRentButton_Click;
             // 
             // deleteRentButton
             // 
-            deleteRentButton.BackColor = SystemColors.ActiveCaption;
-            deleteRentButton.Location = new Point(163, 559);
-            deleteRentButton.Margin = new Padding(4, 3, 4, 3);
+            deleteRentButton.BackColor = Color.LightGray;
+            deleteRentButton.Location = new Point(1340, 372);
+            deleteRentButton.Margin = new Padding(5, 3, 5, 3);
             deleteRentButton.Name = "deleteRentButton";
-            deleteRentButton.Size = new Size(133, 59);
+            deleteRentButton.Size = new Size(146, 70);
             deleteRentButton.TabIndex = 8;
             deleteRentButton.Text = "Eliminar";
             deleteRentButton.UseVisualStyleBackColor = false;
+            deleteRentButton.Click += deleteRentButton_Click;
             // 
             // ClientscomboBox
             // 
             ClientscomboBox.BackColor = SystemColors.ControlLightLight;
             ClientscomboBox.FormattingEnabled = true;
-            ClientscomboBox.Location = new Point(259, 69);
-            ClientscomboBox.Margin = new Padding(4, 3, 4, 3);
+            ClientscomboBox.Location = new Point(300, 39);
+            ClientscomboBox.Margin = new Padding(5, 3, 5, 3);
             ClientscomboBox.Name = "ClientscomboBox";
-            ClientscomboBox.Size = new Size(203, 31);
+            ClientscomboBox.Size = new Size(269, 35);
             ClientscomboBox.TabIndex = 9;
             // 
             // CarscomboBox
             // 
-            CarscomboBox.BackColor = SystemColors.ControlLightLight;
-            CarscomboBox.ForeColor = SystemColors.InactiveBorder;
+            CarscomboBox.BackColor = SystemColors.ButtonFace;
+            CarscomboBox.ForeColor = SystemColors.ControlText;
             CarscomboBox.FormattingEnabled = true;
-            CarscomboBox.Location = new Point(259, 157);
-            CarscomboBox.Margin = new Padding(4, 3, 4, 3);
+            CarscomboBox.Location = new Point(300, 123);
+            CarscomboBox.Margin = new Padding(5, 3, 5, 3);
             CarscomboBox.Name = "CarscomboBox";
-            CarscomboBox.Size = new Size(203, 31);
+            CarscomboBox.Size = new Size(269, 35);
             CarscomboBox.TabIndex = 10;
             // 
             // rentDateDTP
             // 
             rentDateDTP.CustomFormat = "";
-            rentDateDTP.Location = new Point(8, 296);
-            rentDateDTP.Margin = new Padding(4, 3, 4, 3);
+            rentDateDTP.Location = new Point(319, 224);
+            rentDateDTP.Margin = new Padding(5, 3, 5, 3);
             rentDateDTP.Name = "rentDateDTP";
-            rentDateDTP.Size = new Size(322, 29);
+            rentDateDTP.Size = new Size(428, 34);
             rentDateDTP.TabIndex = 11;
             rentDateDTP.Value = new DateTime(2024, 10, 9, 11, 41, 40, 0);
             // 
             // rentReturnDTP
             // 
-            rentReturnDTP.Location = new Point(8, 386);
-            rentReturnDTP.Margin = new Padding(4, 3, 4, 3);
+            rentReturnDTP.Location = new Point(319, 306);
+            rentReturnDTP.Margin = new Padding(5, 3, 5, 3);
             rentReturnDTP.Name = "rentReturnDTP";
-            rentReturnDTP.Size = new Size(335, 29);
+            rentReturnDTP.Size = new Size(428, 34);
             rentReturnDTP.TabIndex = 12;
             // 
             // rentsDataGridView
             // 
-            rentsDataGridView.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.AllCellsExceptHeader;
+            dataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle1.BackColor = Color.Khaki;
+            dataGridViewCellStyle1.Font = new Font("Bahnschrift", 13.2000008F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            dataGridViewCellStyle1.ForeColor = Color.Black;
+            dataGridViewCellStyle1.SelectionBackColor = SystemColors.ActiveCaption;
+            rentsDataGridView.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            rentsDataGridView.Anchor = AnchorStyles.None;
+            rentsDataGridView.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            rentsDataGridView.AutoSizeRowsMode = DataGridViewAutoSizeRowsMode.AllCells;
             rentsDataGridView.BackgroundColor = SystemColors.GradientActiveCaption;
+            rentsDataGridView.BorderStyle = BorderStyle.Fixed3D;
+            dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle2.BackColor = SystemColors.Control;
+            dataGridViewCellStyle2.Font = new Font("Bahnschrift", 13F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            dataGridViewCellStyle2.ForeColor = SystemColors.WindowText;
+            dataGridViewCellStyle2.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = DataGridViewTriState.True;
+            rentsDataGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             rentsDataGridView.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            rentsDataGridView.Location = new Point(674, 122);
-            rentsDataGridView.Margin = new Padding(4, 3, 4, 3);
+            dataGridViewCellStyle3.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle3.BackColor = Color.MistyRose;
+            dataGridViewCellStyle3.Font = new Font("Bahnschrift", 13.2000008F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            dataGridViewCellStyle3.ForeColor = SystemColors.ControlText;
+            dataGridViewCellStyle3.SelectionBackColor = SystemColors.GradientActiveCaption;
+            dataGridViewCellStyle3.SelectionForeColor = SystemColors.ControlText;
+            dataGridViewCellStyle3.WrapMode = DataGridViewTriState.False;
+            rentsDataGridView.DefaultCellStyle = dataGridViewCellStyle3;
+            rentsDataGridView.GridColor = Color.FromArgb(255, 255, 192);
+            rentsDataGridView.Location = new Point(14, 516);
+            rentsDataGridView.Margin = new Padding(5, 3, 5, 3);
+            rentsDataGridView.MaximumSize = new Size(1660, 600);
+            rentsDataGridView.MinimumSize = new Size(500, 300);
             rentsDataGridView.Name = "rentsDataGridView";
+            dataGridViewCellStyle4.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle4.BackColor = SystemColors.Control;
+            dataGridViewCellStyle4.Font = new Font("Bahnschrift", 13F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            dataGridViewCellStyle4.ForeColor = SystemColors.WindowText;
+            dataGridViewCellStyle4.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle4.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle4.WrapMode = DataGridViewTriState.True;
+            rentsDataGridView.RowHeadersDefaultCellStyle = dataGridViewCellStyle4;
             rentsDataGridView.RowHeadersWidth = 51;
-            rentsDataGridView.Size = new Size(853, 404);
+            dataGridViewCellStyle5.Alignment = DataGridViewContentAlignment.MiddleCenter;
+            rentsDataGridView.RowsDefaultCellStyle = dataGridViewCellStyle5;
+            rentsDataGridView.ScrollBars = ScrollBars.Vertical;
+            rentsDataGridView.Size = new Size(1472, 350);
             rentsDataGridView.TabIndex = 13;
             // 
             // titlePrincipalFormPanel
             // 
-            titlePrincipalFormPanel.BackColor = SystemColors.ActiveCaption;
+            titlePrincipalFormPanel.BackColor = Color.WhiteSmoke;
             titlePrincipalFormPanel.Controls.Add(tittleLabel);
-            titlePrincipalFormPanel.Location = new Point(13, 9);
-            titlePrincipalFormPanel.Margin = new Padding(4, 3, 4, 3);
+            titlePrincipalFormPanel.Location = new Point(17, 10);
+            titlePrincipalFormPanel.Margin = new Padding(5, 3, 5, 3);
             titlePrincipalFormPanel.Name = "titlePrincipalFormPanel";
-            titlePrincipalFormPanel.Size = new Size(972, 71);
+            titlePrincipalFormPanel.Size = new Size(2074, 83);
             titlePrincipalFormPanel.TabIndex = 15;
             // 
             // tittleLabel
             // 
             tittleLabel.AutoSize = true;
             tittleLabel.Font = new Font("Arial", 21.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            tittleLabel.Location = new Point(281, 13);
-            tittleLabel.Margin = new Padding(4, 0, 4, 0);
+            tittleLabel.Location = new Point(648, 12);
+            tittleLabel.Margin = new Padding(5, 0, 5, 0);
             tittleLabel.Name = "tittleLabel";
             tittleLabel.Size = new Size(451, 44);
             tittleLabel.TabIndex = 0;
@@ -232,7 +278,7 @@
             // 
             // newRentGroupBox
             // 
-            newRentGroupBox.BackColor = Color.FromArgb(0, 192, 192);
+            newRentGroupBox.BackColor = Color.OldLace;
             newRentGroupBox.Controls.Add(returnTimeDTP);
             newRentGroupBox.Controls.Add(rentDateDTP);
             newRentGroupBox.Controls.Add(rentTimeDTP);
@@ -245,59 +291,64 @@
             newRentGroupBox.Controls.Add(clientsLabel);
             newRentGroupBox.Controls.Add(carsButton);
             newRentGroupBox.Controls.Add(clientsButton);
-            newRentGroupBox.Location = new Point(13, 87);
-            newRentGroupBox.Margin = new Padding(4);
+            newRentGroupBox.Location = new Point(17, 102);
+            newRentGroupBox.Margin = new Padding(5, 4, 5, 4);
             newRentGroupBox.Name = "newRentGroupBox";
-            newRentGroupBox.Padding = new Padding(4);
-            newRentGroupBox.Size = new Size(653, 454);
+            newRentGroupBox.Padding = new Padding(5, 4, 5, 4);
+            newRentGroupBox.Size = new Size(1297, 398);
             newRentGroupBox.TabIndex = 16;
             newRentGroupBox.TabStop = false;
             newRentGroupBox.Text = "Renta de Vehiculo";
             // 
             // returnTimeDTP
             // 
+            returnTimeDTP.Font = new Font("Arial", 13F, FontStyle.Regular, GraphicsUnit.Point, 0);
             returnTimeDTP.Format = DateTimePickerFormat.Time;
-            returnTimeDTP.Location = new Point(338, 296);
-            returnTimeDTP.Margin = new Padding(4);
+            returnTimeDTP.Location = new Point(782, 306);
+            returnTimeDTP.Margin = new Padding(5, 4, 5, 4);
             returnTimeDTP.Name = "returnTimeDTP";
             returnTimeDTP.ShowUpDown = true;
-            returnTimeDTP.Size = new Size(158, 29);
+            returnTimeDTP.Size = new Size(178, 32);
             returnTimeDTP.TabIndex = 14;
             // 
             // rentTimeDTP
             // 
+            rentTimeDTP.CustomFormat = "";
+            rentTimeDTP.Font = new Font("Arial", 13F, FontStyle.Regular, GraphicsUnit.Point, 0);
             rentTimeDTP.Format = DateTimePickerFormat.Time;
-            rentTimeDTP.Location = new Point(400, 386);
-            rentTimeDTP.Margin = new Padding(4);
+            rentTimeDTP.Location = new Point(782, 224);
             rentTimeDTP.Name = "rentTimeDTP";
             rentTimeDTP.ShowUpDown = true;
-            rentTimeDTP.Size = new Size(166, 29);
+            rentTimeDTP.Size = new Size(178, 32);
             rentTimeDTP.TabIndex = 13;
+            rentTimeDTP.Value = new DateTime(2024, 10, 10, 12, 33, 0, 0);
             // 
             // RentForm
             // 
-            AutoScaleDimensions = new SizeF(9F, 23F);
+            AutoScaleDimensions = new SizeF(12F, 27F);
             AutoScaleMode = AutoScaleMode.Font;
+            AutoSize = true;
             AutoSizeMode = AutoSizeMode.GrowAndShrink;
-            BackColor = SystemColors.ControlDark;
+            BackColor = Color.MistyRose;
             BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(1569, 688);
+            ClientSize = new Size(1632, 770);
             Controls.Add(titlePrincipalFormPanel);
             Controls.Add(newRentGroupBox);
             Controls.Add(saveRentButton);
             Controls.Add(deleteRentButton);
             Controls.Add(editRentButton);
             Controls.Add(rentsDataGridView);
-            Font = new Font("Tw Cen MT Condensed Extra Bold", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            Margin = new Padding(4, 3, 4, 3);
+            Font = new Font("Bahnschrift", 13F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            Margin = new Padding(5, 3, 5, 3);
+            MaximumSize = new Size(1650, 900);
             Name = "RentForm";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "RentForm";
             FormClosing += RentForm_FormClosing;
             ((System.ComponentModel.ISupportInitialize)rentsDataGridView).EndInit();
             titlePrincipalFormPanel.ResumeLayout(false);
             titlePrincipalFormPanel.PerformLayout();
             newRentGroupBox.ResumeLayout(false);
-            newRentGroupBox.PerformLayout();
             ResumeLayout(false);
         }
 

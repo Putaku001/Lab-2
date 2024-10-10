@@ -32,7 +32,7 @@ namespace PresentatioLayer.Validation
 
         public static bool ValidateDates(DateTime rentDate, DateTime returnDate, out string errorMessage)
         {
-            if (rentDate > returnDate)
+            if (rentDate.Date > returnDate.Date)
             {
                 errorMessage = "La fecha de devolución no puede ser anterior a la fecha de renta.";
                 return false;
@@ -43,7 +43,7 @@ namespace PresentatioLayer.Validation
 
         public static bool ValidateTimes(DateTime rentDate, DateTime returnDate, TimeSpan rentTime, TimeSpan returnTime, out string errorMessage)
         {
-            if (rentDate.Date == returnDate.Date) 
+            if (rentDate.Date == returnDate.Date)
             {
                 if (rentTime >= returnTime)
                 {

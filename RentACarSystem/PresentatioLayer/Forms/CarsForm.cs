@@ -66,7 +66,7 @@ namespace PresentatioLayer.Forms
             LoadCars();
             MessageBox.Show("Carro guardado");
 
-            // Limpiar los campos después de agregar
+           
             ClearFields();
 
         }
@@ -166,15 +166,30 @@ namespace PresentatioLayer.Forms
 
         private void CarsDataGridView_SelectionChanged(object sender, EventArgs e)
         {
-            if (CarsDataGridView.SelectedRows.Count > 0)
+            try
             {
-                var selectedRow = CarsDataGridView.SelectedRows[0];
-                brandTextBox.Text = selectedRow.Cells["Marca"].Value.ToString();
-                modelTextBox.Text = selectedRow.Cells["Modelo"].Value.ToString();
-                yearTextBox.Text = selectedRow.Cells["Año"].Value.ToString();
-                availabilityCheckBox.Checked = Convert.ToBoolean(selectedRow.Cells["Disponibilidad"].Value);
+                if (CarsDataGridView.SelectedRows.Count > 0)
+                {
+                    var selectedRow = CarsDataGridView.SelectedRows[0];
+
+                    // Verificar si los valores son nulos antes de asignarlos
+                    brandTextBox.Text = selectedRow.Cells["Marca"].Value?.ToString() ?? "N/A"; 
+                    modelTextBox.Text = selectedRow.Cells["Modelo"].Value?.ToString() ?? "N/A"; 
+                    yearTextBox.Text = selectedRow.Cells["Año"].Value?.ToString() ?? "N/A"; 
+
+                    
+                    availabilityCheckBox.Checked = selectedRow.Cells["Disponibilidad"].Value != null
+                        && Convert.ToBoolean(selectedRow.Cells["Disponibilidad"].Value);
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"ha seleccionado una fila que esta en blanco ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+        //funcion para que al cerrar este form no se pierda el flujo
+
 
      
     }

@@ -23,7 +23,11 @@ namespace PresentatioLayer.Forms
             InitializeComponent();
             _clientRepository = new ClientRepository();
             LoadClients();
+            
+
+            //evento de seleccionar dato
             clientDataGridView.SelectionChanged += clientDataGridView_SelectionChanged;
+            
         }
 
         private void LoadClients()
@@ -33,23 +37,34 @@ namespace PresentatioLayer.Forms
 
             clientDataGridView.Columns["ClienteID"].HeaderText = "ID";
             clientDataGridView.Columns["Nombre"].HeaderText = "Nombre";
+            clientDataGridView.Columns["Apellido"].HeaderText = "Apellido";
             clientDataGridView.Columns["Telefono"].HeaderText = "Teléfono";
-            clientDataGridView.Columns["Email"].HeaderText = "Email";
+            clientDataGridView.Columns["Licencia"].HeaderText = "Licencia";
         }
         private void clientDataGridView_SelectionChanged(object sender, EventArgs e)
         {
-            if (clientDataGridView.SelectedRows.Count > 0)
+            try
             {
-                var selectedRow = clientDataGridView.SelectedRows[0];
-                nameTextBox.Text = selectedRow.Cells["Nombre"].Value.ToString();
-                phoneTextBox.Text = selectedRow.Cells["Telefono"].Value.ToString();
-                emailTextBox.Text = selectedRow.Cells["Email"].Value.ToString();
+                if (clientDataGridView.SelectedRows.Count > 0)
+                {
+                    var selectedRow = clientDataGridView.SelectedRows[0];
+
+                    // Verificar si las celdas no son nulas antes de acceder a sus valores
+                    phoneTextBox.Text = selectedRow.Cells["Telefono"].Value?.ToString() ?? "N/A";
+                    LastNameTextBox.Text = selectedRow.Cells["Apellido"].Value?.ToString() ?? "N/A";
+                    licenceTextBox.Text = selectedRow.Cells["Licencia"].Value?.ToString() ?? "N/A";
+                }
+            }
+            catch (NullReferenceException ex)
+            {
+                // Mensaje personalizado si ocurre una excepción
+                MessageBox.Show("Ha seleccionado una fila que está en blanco o con datos incompletos.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
         private void addButton_Click(object sender, EventArgs e)
         {
-            string nameError, phoneError, emailError;
+            string nameError, phoneError, lastNameError, licenceError;
 
             if (!ClientFormValidation.ValidateName(nameTextBox.Text, out nameError))
             {
@@ -63,22 +78,30 @@ namespace PresentatioLayer.Forms
                 return;
             }
 
-            if (!ClientFormValidation.ValidateEmail(emailTextBox.Text, out emailError))
+            if (!ClientFormValidation.ValidateLastName(LastNameTextBox.Text, out lastNameError))
             {
-                MessageBox.Show(emailError);
+                MessageBox.Show(lastNameError);
+                return;
+            }
+
+            if (!ClientFormValidation.ValidateLicense(licenceTextBox.Text, out licenceError))
+            {
+                MessageBox.Show(licenceError);
                 return;
             }
 
             Client client = new Client
             {
                 Name = nameTextBox.Text,
+                LastName = LastNameTextBox.Text,
                 Telephone = phoneTextBox.Text,
-                Email = emailTextBox.Text
+                License = licenceTextBox.Text,
+
             };
 
             _clientRepository.AddClient(client);
             MessageBox.Show("Cliente agregado con éxito");
-            ClearForm(); 
+            ClearForm();
             LoadClients();
         }
 
@@ -86,11 +109,16 @@ namespace PresentatioLayer.Forms
         {
             if (clientDataGridView.SelectedRows.Count > 0)
             {
-                string nameError, phoneError, emailError;
+                string nameError, phoneError, lastNameError, licenceError;
 
                 if (!ClientFormValidation.ValidateName(nameTextBox.Text, out nameError))
                 {
                     MessageBox.Show(nameError);
+                    return;
+                }
+                if (!ClientFormValidation.ValidateLastName(LastNameTextBox.Text, out lastNameError))
+                {
+                    MessageBox.Show(lastNameError);
                     return;
                 }
 
@@ -100,19 +128,23 @@ namespace PresentatioLayer.Forms
                     return;
                 }
 
-                if (!ClientFormValidation.ValidateEmail(emailTextBox.Text, out emailError))
+                if (!ClientFormValidation.ValidateLicense(licenceTextBox.Text, out licenceError))
                 {
-                    MessageBox.Show(emailError);
+                    MessageBox.Show(licenceError);
                     return;
                 }
+
+
 
                 var selectedRow = clientDataGridView.SelectedRows[0];
                 Client client = new Client
                 {
                     ClientID = Convert.ToInt32(selectedRow.Cells["ClienteID"].Value),
                     Name = nameTextBox.Text,
+                    LastName = LastNameTextBox.Text,
                     Telephone = phoneTextBox.Text,
-                    Email = emailTextBox.Text
+                    License = licenceTextBox.Text,
+
                 };
 
                 _clientRepository.EditClient(client);
@@ -157,7 +189,8 @@ namespace PresentatioLayer.Forms
         {
             nameTextBox.Text = string.Empty;
             phoneTextBox.Text = string.Empty;
-            emailTextBox.Text = string.Empty;
+            LastNameTextBox.Text = string.Empty;
+            licenceTextBox.Text = string.Empty;
         }
         private void BackButton_Click(object sender, EventArgs e)
         {
@@ -167,6 +200,9 @@ namespace PresentatioLayer.Forms
 
             rentForm.Show();
         }
+
+       
+    
     }
 }
 
